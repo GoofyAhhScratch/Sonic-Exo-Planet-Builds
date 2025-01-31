@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgm_minty_mountain_zone",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":122.181816,
+  "name":"bgm_minty_mountain_zone",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Audio/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_minty_mountain_zone.ogg",
+  "type":0,
+  "volume":1.0,
+}
