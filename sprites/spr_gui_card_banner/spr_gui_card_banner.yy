@@ -5,21 +5,21 @@
   "bbox_bottom":239,
   "bbox_left":0,
   "bbox_right":63,
-  "bbox_top":0,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bed5cdf8-8df2-428f-925b-1c8670081f30","name":"bed5cdf8-8df2-428f-925b-1c8670081f30","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0cd72337-65a9-474d-9853-afbe6b0ab825","name":"0cd72337-65a9-474d-9853-afbe6b0ab825","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":240,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"844a2860-14e6-4f3b-9d28-691e1eaccfb0","blendMode":0,"displayName":"default","isLocked":false,"name":"844a2860-14e6-4f3b-9d28-691e1eaccfb0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"94ef2b27-079d-4d96-be23-193fcec95d36","blendMode":0,"displayName":"default","isLocked":false,"name":"94ef2b27-079d-4d96-be23-193fcec95d36","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_gui_card_banner",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bed5cdf8-8df2-428f-925b-1c8670081f30","path":"sprites/spr_gui_card_banner/spr_gui_card_banner.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"76444c23-7645-4730-9094-a62966c05ca4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0cd72337-65a9-474d-9853-afbe6b0ab825","path":"sprites/spr_gui_card_banner/spr_gui_card_banner.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1d417dd9-9cbb-4ba1-8d01-35b0967a6da7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
