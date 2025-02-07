@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":11.0,
+  "duration":12.0,
   "name":"bgm_drowning",
   "parent":{
     "name":"BGM",

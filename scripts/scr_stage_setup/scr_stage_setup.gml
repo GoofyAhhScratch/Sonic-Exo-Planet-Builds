@@ -77,7 +77,7 @@ function scr_stage_setup()
 			bg_add_layer(spr_bcz_background_3, 0, 320, 0, 0, 0, 0, 0.75, 0.14);				// that pillar thingy
         
 		break;
-		case rm_stage_mmz1:
+		case rm_stage_mmz1A:
         
 			//the stage setup too
 			m_stage_set(4, "MINTY MOUNTAIN", 0, bgm_minty_mountain_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
@@ -86,11 +86,28 @@ function scr_stage_setup()
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 			
 			//heres the background shit
-			bg_add_layer(spr_mmz_background_5, 0, 320, 0, 0, 0, 0, 0, 0);
-			bg_add_layer(spr_mmz_background_4, 0, 320, 0, 0, 0, 0, 0.40, 0.02);	
-			bg_add_layer(spr_mmz_background_3, 0, 320, 0, 0, 0, 0, 0.45, 0.02);		
-			bg_add_layer(spr_mmz_background_2, 0, 320, 0, 0, 0, 0, 0.75, 0.02);				// the sun is leaking
-			bg_add_layer(spr_mmz_background_1, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// m ohnutains
+			bg_add_layer(spr_mmz_background_6, 0, 320, 0, 0, 0, 0, 0, 0);
+			bg_add_layer(spr_mmz_background_5, 0, 320, 0, 0, 0, 0, 0.40, 0.02);	
+			bg_add_layer(spr_mmz_background_4, 0, 320, 0, 0, 0, 0, 0.45, 0.02);		
+			bg_add_layer(spr_mmz_background_3, 0, 320, 0, 0, 0.40, 0, 0.75, 0.02);				// the sun is leaking
+			bg_add_layer(spr_mmz_background_2, 0, 320, 0, 0, 0.30, 0, 0.60, 0.02);
+			bg_add_layer(spr_mmz_background_1, 0, 320, 0, 0, 0.20, 0, 0.60, 0.02);	// m ohnutains
+			
+        
+		break;
+				case rm_stage_mmz1B:
+        
+			//the stage setup too
+			m_stage_set(4, "MINTY MOUNTAIN", 0, bgm_minty_mountain_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(57, 217, global.player_main, "Instances");
+			player_spawn(35, 217, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			
+			//heres the background shit
+			bg_add_layer(spr_mmz_past_backgorund_4, 0, 500, 0, 0, 0, 0, 0.40, 0.02);	
+			bg_add_layer(spr_mmz_past_backgorund_3, 0, 500, 0, 0, 0, 0, 0.45, 0.03);		
+			bg_add_layer(spr_mmz_past_backgorund_2, 0, 500, 0, 0, 0, 0, 0.60, 0.03);				// the sun is leaking
+			bg_add_layer(spr_mmz_past_backgorund_1, 0, 500, 0, 0, 0, 0, 0.75, 0.03);				// m ohnutains
 			
         
 		break;
