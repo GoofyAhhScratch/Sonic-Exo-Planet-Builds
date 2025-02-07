@@ -65,7 +65,7 @@ function scr_stage_setup()
 		case rm_stage_bcz1:
         
 			//the stage setup too
-			m_stage_set(1, "BLOSSOM CITY", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(1, "SAKURA STATION", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(48, 384, global.player_main, "Instances");
 			player_spawn(28, 384, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
