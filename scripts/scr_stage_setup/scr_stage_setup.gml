@@ -111,5 +111,26 @@ function scr_stage_setup()
 			
         
 		break;
+						case rm_stage_mmz1C:
+        
+			//the stage setup too
+			m_stage_set(4, "MINTY MOUNTAIN", 0, bgm_mmz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(57, 217, global.player_main, "Instances");
+			player_spawn(35, 217, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			
+			//heres the background shit
+			bg_add_layer(spr_mmz_gf_background_9, 0, 500, 0, 0, 0, 0, 0.15, 0.02);	
+			bg_add_layer(spr_mmz_gf_background_8, 0, 500, 0, 0, 0, 0, 0.20, 0.02);	
+			bg_add_layer(spr_mmz_gf_background_7, 0, 500, 0, 0, 0, 0, 0.25, 0.02);		
+			bg_add_layer(spr_mmz_gf_background_6, 0, 500, 0, 0, 0, 0, 0.30, 0.02);				// the sun is leaking
+			bg_add_layer(spr_mmz_gf_background_5, 0, 500, 0, 0, 0, 0, 0.35, 0.02);	
+			bg_add_layer(spr_mmz_gf_background_4, 0, 500, 0, 0, 0, 0, 0.40, 0.02);	
+			bg_add_layer(spr_mmz_gf_background_3, 0, 500, 0, 0, 0, 0, 0.45, 0.02);		
+			bg_add_layer(spr_mmz_gf_background_2, 0, 500, 0, 0, 0, 0, 0.60, 0.02);				// the sun is leaking
+			bg_add_layer(spr_mmz_gf_background_1, 0, 500, 0, 0, 0, 0, 0.75, 0.02);				// m ohnutains
+			
+        
+		break;
 	}
 }
