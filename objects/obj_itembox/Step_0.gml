@@ -6,7 +6,7 @@ if state == ITEMBOX_STATE_DESTROYED
 // Update card drawing state
 draw_card = card_index > 0 && ani_get_timer() != 3;
 
-if card_index >= 9
+if card_index >= 15
 {
     card_index = 9 + player_get(0).PlayerType;
 }

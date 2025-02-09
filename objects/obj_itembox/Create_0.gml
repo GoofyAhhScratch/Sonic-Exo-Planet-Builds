@@ -20,6 +20,8 @@ switch Type
     case "Lightning Shield":     card_index = 7; break;
     case "Invincible":           card_index = 8; break;
     case "1UP":                  card_index = 9; break;
+	case "Past":                 card_index = 14; break;
+	case "Future":               card_index = 15; break;
  
     default:
         card_index = 0;

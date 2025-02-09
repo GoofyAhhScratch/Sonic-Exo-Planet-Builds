@@ -80,7 +80,39 @@ switch state
                 audio_play_sfx(sfx_shield_lightning);
 				
             break;
-                
+	case 14:
+			
+                        if (global.present = true)
+						
+						{
+							instance_create(x,y,obj_starpost, {}, id);
+							obj_set_culling(CULLING.RESPAWN);
+							room_goto_next()
+						}
+						else
+						{
+							instance_create(x,y,obj_starpost, {}, id);
+							var _checkpoint_data = global.checkpoint_data;
+							obj_set_culling(CULLING.RESPAWN);
+							room_goto_previous();
+						}
+            break;
+			case 15:
+			
+                        if (global.past = true)
+						{
+							instance_create(x,y,obj_starpost, {}, id);
+							var _checkpoint_data = global.checkpoint_data;
+							obj_set_culling(CULLING.RESPAWN);
+							room_goto_previous();
+						}
+						else
+						{
+							instance_create(x,y,obj_starpost, {}, id);
+							var _checkpoint_data = global.checkpoint_data;
+							obj_set_culling(CULLING.RESPAWN);
+							room_goto(rm_stage_mmz1A)
+						}    
             // Invincibility
             case 8:
 			
@@ -138,5 +170,6 @@ switch state
             instance_destroy();
         }
 		
-    break;
+			
+                
 }
