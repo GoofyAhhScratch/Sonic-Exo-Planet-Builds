@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgm_mmz_p_zone",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":53.498775,
+  "name":"bgm_mmz_p_zone",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Audio/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_mmz_p_zone.mp3",
+  "type":1,
+  "volume":1.0,
+}
