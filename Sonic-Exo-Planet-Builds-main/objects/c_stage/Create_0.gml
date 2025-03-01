@@ -42,11 +42,12 @@ if water_enabled
     instance_create_depth(0, 0, RENDERER_DEPTH_HIGHEST, obj_water_surface);
 }
 
-if room != rm_map
-{
-	instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_titlecard);	
+if (room != rm_map && global.timetravelaction == false) {
+    instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_titlecard);
 }
 instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_hud);
+if (global.timetravelaction = true)
+audio_play_sound(sfx_ring_giant, 0, false);
 
 audio_play_bgm(bgm_track);
 

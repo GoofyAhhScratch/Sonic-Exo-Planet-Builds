@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":1,
+  "compression":0,
   "conversionMode":0,
   "duration":180.61061,
   "name":"bgm_ghastly_gourd_present",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"bgm_ghastly_gourd_present.mp3",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }

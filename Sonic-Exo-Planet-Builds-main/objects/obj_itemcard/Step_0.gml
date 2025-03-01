@@ -135,7 +135,7 @@ switch state
                     audio_play_bgm(bgm_invincibility);
                 }
 				
-                _player.item_inv_timer = 1200;
+                _player.item_inv_timer = 2040;
 				
             break;
                 

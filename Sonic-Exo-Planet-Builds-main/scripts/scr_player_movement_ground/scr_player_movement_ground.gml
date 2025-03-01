@@ -127,7 +127,14 @@ function scr_player_movement_ground()
 			set_push_anim_by = noone;
 		}
 	}
-	
+	if spd_ground > 4
+		{
+			   global.timetravelspeed = true;
+		}
+		else if spd_ground < 4
+		{
+			   global.timetravelspeed = false;
+		}
 	// Apply friction if no horizontal input is detected
 	if !input_down.left && !input_down.right
 	{

@@ -164,5 +164,23 @@ function scr_stage_setup()
 			
         
 		break;
+		case rm_stage_aaz1A:
+        
+			//the stage setup too
+			m_stage_set(4, "ABASE AIRS", 0, bgm_ghastly_gourd_present, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(57, 217, global.player_main, "Instances");
+			player_spawn(35, 217, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			
+			//heres the background shit
+			bg_add_layer(spr_mmz_background_6, 0, 320, 0, 0, 0, 0, 0, 0);
+			bg_add_layer(spr_mmz_background_5, 0, 320, 0, 0, 0, 0, 0.40, 0.02);	
+			bg_add_layer(spr_mmz_background_4, 0, 320, 0, 0, 0, 0, 0.45, 0.02);		
+			bg_add_layer(spr_mmz_background_3, 0, 320, 0, 0, 0.40, 0, 0.75, 0.02);				// the sun is leaking
+			bg_add_layer(spr_mmz_background_2, 0, 320, 0, 0, 0.30, 0, 0.60, 0.02);
+			bg_add_layer(spr_mmz_background_1, 0, 320, 0, 0, 0.20, 0, 0.60, 0.02);	// m ohnutains
+
+				break;
 	}
 }
+       
