@@ -1,3 +1,3 @@
 global.zone = 3
-global.level = 1
+global.level = 2
 global.timezone = 2

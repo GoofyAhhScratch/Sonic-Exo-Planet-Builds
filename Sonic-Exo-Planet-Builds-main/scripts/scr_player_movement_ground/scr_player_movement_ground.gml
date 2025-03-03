@@ -1,4 +1,5 @@
 /// @function scr_player_movement_ground
+global.timetravelaction = false;
 function scr_player_movement_ground()
 {
 	if action == ACTION_SPINDASH || action == ACTION_DASH || action == ACTION_HAMMERDASH
@@ -149,4 +150,8 @@ function scr_player_movement_ground()
 	}
 
 	m_player_set_velocity_from_speed();
+}
+
+if (global.timetravelaction == true) {
+    global.characterspeedtimetravel = spd_ground;
 }

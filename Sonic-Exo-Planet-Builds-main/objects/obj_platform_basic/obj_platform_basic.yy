@@ -40,7 +40,7 @@
     {"$GMObjectProperty":"v1","%Name":"CollisionWidth","filters":[],"listItems":[],"multiselect":false,"name":"CollisionWidth","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"CollisionHeight","filters":[],"listItems":[],"multiselect":false,"name":"CollisionHeight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"16","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"AngleOffset","filters":[],"listItems":[],"multiselect":false,"name":"AngleOffset","rangeEnabled":true,"rangeMax":360.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"ReverseMovement","filters":[],"listItems":[],"multiselect":false,"name":"ReverseMovement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"ReverseMovement","filters":[],"listItems":[],"multiselect":false,"name":"ReverseMovement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

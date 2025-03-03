@@ -13,10 +13,10 @@ global.obj_player_y = obj_player.y
 
     if (global.zone == 3 && global.level == 1) {
         if (global.timezone == 1) {
-            room_goto(rm_stage_bcz1B);
+            room_goto(rm_stage_bcz2B);
         } else {
             global.timezone = 3;
-            room_goto(rm_stage_bcz1B);
+            room_goto(rm_stage_bcz2B);
         }
     }
 }

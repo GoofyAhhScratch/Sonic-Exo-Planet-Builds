@@ -62,10 +62,26 @@ function scr_stage_setup()
 			bg_set_perspective_y(water_level_init)
 		break;
 			
+		case rm_stage_bcz2A:
+        
+			//the stage setup too
+			m_stage_set(2, "SAKURA STATION", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(48, 384, global.player_main, "Instances");
+			player_spawn(28, 384, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			
+			//heres the background shit
+			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking
+			bg_add_layer(spr_bcz_background_1, 0, 320, 0, 0, 0, 0, 0.45, 0.02);				// m ohnutains
+			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
+			bg_add_layer(spr_bcz_background_3, 0, 320, 0, 0, 0, 0, 0.75, 0.14);				// that pillar thingy
+        
+		break;
+					
 		case rm_stage_bcz1A:
         
 			//the stage setup too
-			m_stage_set(1, "SAKURA STATION", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(1, "SAKURA STATION", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_stage_bcz2A, false);    
 			player_spawn(48, 384, global.player_main, "Instances");
 			player_spawn(28, 384, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
@@ -193,7 +209,7 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 			bg_add_layer(spr_mmz_background_1, 0, 320, 0, 0, 0.20, 0, 0.60, 0.02);	// m ohnutains
 
 				break;
-						case rm_stage_bcz1B:
+						case rm_stage_bcz2B:
         
 			//the stage setup too
 			m_stage_set(1, "SAKURA STATION", 0, bgm_bcz_past_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
@@ -209,6 +225,9 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 			bg_add_layer(spr_bczpast_background_5, 0, 320, 0, 0, 0, 0, 0.80, 0.00);		// that pillar thingy
         
 		break;
+		    case rm_stage_timetravel_cutscene_past:
+        // Here's the background setup
+        bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0.50, 0, 0);
+        break;
 	}
 }
-       

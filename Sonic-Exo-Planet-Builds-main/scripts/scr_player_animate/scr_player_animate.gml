@@ -9,7 +9,7 @@ function scr_player_animate()
 		return ceil((_angle - 22.5) / 45) * 45;
 	}
 
-	var _smooth_rotation = global.rotation_mode > 0;
+	var _smooth_rotation = global.rotation_mode > 8;
 
 	// Update visual angle based on grounded state
 	if is_grounded

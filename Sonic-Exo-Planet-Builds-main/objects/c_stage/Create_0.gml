@@ -44,11 +44,15 @@ if water_enabled
 
 if (room != rm_map && global.timetravelaction == false) {
     instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_titlecard);
+    instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_hud);
+} else {
+	instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_hud);
+    audio_play_sound(sfx_ring_giant, 1, false);
+    global.timetravelaction = false;
+    instance_create_depth(global.obj_player_x, global.obj_player_y, -1, obj_player_debug_spawn);
+    instance_create(x, y, obj_water_flash);
 }
-instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_hud);
-if (global.timetravelaction = true)
-audio_play_sound(sfx_ring_giant, 0, false);
-global.timetravelaction = false
+
 
 audio_play_bgm(bgm_track);
 
@@ -70,7 +74,7 @@ var _stage_icon = "";
 switch room
 {
     case rm_stage_tsz0: _stage_icon = "drp_tech_stadium"; break;
-	case rm_stage_bcz1A: _stage_icon = "drp_blossom_city"; break;
+	case rm_stage_bcz2A: _stage_icon = "drp_blossom_city"; break;
 }
 
 discord_set_data($"{zone_name}", act_id == ACT_SINGLE ? "Single Act" : $"Act {act_id + 1}", _stage_icon, _player_icon);
