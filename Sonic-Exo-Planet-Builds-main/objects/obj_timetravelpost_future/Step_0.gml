@@ -8,9 +8,15 @@ switch State
 			return;
 		}
 	
-		audio_play_sfx(sfx_past);
-		if global.timezone = 3 or global.timezone = 4 { global.timetravelingTo = "A" } //present
-		else { global.timetravelingTo = "B" } //past
+		audio_play_sfx(sfx_future);
+		if global.timezone = 2 { global.timetravelingTo = "A" } //present
+		else {
+			if global.isGoodFuture = true {
+				global.timetravelingTo = "C"
+			} else {
+				global.timetravelingTo = "D"
+			}
+		}
 		State = SIGN_SPIN;
 	break;
 	case SIGN_SPIN:

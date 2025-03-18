@@ -92,6 +92,8 @@ switch state
 			scr_player_water();
 		}
 		
+		scr_player_timetravel();
+		
 		scr_player_update_status();
 		scr_player_animate();
 		m_player_record_data(0);
@@ -123,6 +125,7 @@ switch state
 		}
 		
 		scr_player_death();
+		scr_player_animate();
 		scr_player_position();
 		m_player_record_data(0);
 		

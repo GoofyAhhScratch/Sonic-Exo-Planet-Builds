@@ -46,9 +46,9 @@ function scr_player_init()
 	// Set initial values
 	radius_x = radius_x_normal;
 	radius_y = radius_y_normal;
-	vel_x = 0;
-	vel_y = 0;
-	spd_ground = 0;
+	vel_x = global.obj_player_xvel;
+	vel_y = global.obj_player_yvel;
+	spd_ground = global.obj_player_gsp;
 	angle = 0;
 	acc_glide = 0;
 	acc_climb = 0;

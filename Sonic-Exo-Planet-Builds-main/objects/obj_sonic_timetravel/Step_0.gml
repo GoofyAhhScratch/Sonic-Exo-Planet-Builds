@@ -35,7 +35,7 @@ switch (state) {
 
     case "moveTo224":
         // Calculate the t value (ranging from 0 to 1)
-        t = elapsedTime / duration;
+        t = elapsedTime / (duration/2);
         // Map t to an angle from 0 to π/2
         angle = lerp(0, pi / 2, t);
         // Calculate the smooth Y position using the sine function
@@ -47,6 +47,27 @@ switch (state) {
         
         // Increment elapsed time
         elapsedTime += 1;
+		
+		if (elapsedTime = duration-20) {
+           fade_perform_white(FADEROUTINE.OUT, 2, false);
+        }
+		
+		if (elapsedTime >= duration) {
+            elapsedTime = 0; // Reset elapsedTime
+            state = "travel"; // Move to the next state
+        }
 
         break;
+		
+	case "travel":
+		room_goto(global.GoToRoom);
+		state = "waitAt96";
+		elapsedTime = 0;
+		break;
+}
+
+global.ttsparkTimer += 1;
+if global.ttsparkTimer > 12 {
+	instance_create(x, y-48, obj_timetravelsparksDown);
+	global.ttsparkTimer = 0;
 }

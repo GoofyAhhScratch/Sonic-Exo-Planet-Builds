@@ -113,5 +113,17 @@ m_player();
 obj_set_priority(2);
 obj_set_culling(CULLING.PAUSEONLY);
 
+global.HESABOUTTOTRAVEL = 0;
+global.ttsparkTimer = 0;
+
+if global.timetravelingTo = ""
+{
+	global.obj_player_x = 0;
+	global.obj_player_y = 0;
+	global.obj_player_xvel = 0;
+	global.obj_player_yvel = 0;	
+	global.obj_player_gsp = 0;		
+}
+
 scr_player_init();
 scr_player_debug_mode_init();

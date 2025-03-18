@@ -5,6 +5,6 @@
 // Inherit the parent event
 event_inherited();
 	
-obj_set_hitbox(15, 32);
+obj_set_hitbox(15, 32, 0, 32);
 obj_set_priority(1);
 obj_set_culling(CULLING.DISABLE);

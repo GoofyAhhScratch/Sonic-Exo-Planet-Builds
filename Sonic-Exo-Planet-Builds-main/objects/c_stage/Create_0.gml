@@ -42,17 +42,24 @@ if water_enabled
     instance_create_depth(0, 0, RENDERER_DEPTH_HIGHEST, obj_water_surface);
 }
 
-if (room != rm_map && global.timetravelaction == false) {
+global.isGoodFuture = true;
+if global.timetravelingTo == "" {
+	global.obj_player_xvel = 0;
+	global.obj_player_yvel = 0;	
+	global.obj_player_gsp = 0;	
+}
+
+if (room != rm_map && global.timetravelingTo == "") {
     instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_titlecard);
     instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_hud);
 } else {
 	instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_hud);
-    audio_play_sound(sfx_ring_giant, 1, false);
+    fade_perform_white(FADEROUTINE.IN, 1, false);
     global.timetravelaction = false;
     instance_create_depth(global.obj_player_x, global.obj_player_y, -1, obj_player_debug_spawn);
-    instance_create(x, y, obj_water_flash);
 }
 
+global.timetravelingTo = "";
 
 audio_play_bgm(bgm_track);
 
@@ -130,3 +137,11 @@ for (var i = 0; i < CAMERA_COUNT; i++)
         _camera.max_x = bound_right[i];
     }
 }
+
+global.roomTT = [
+	["mmz1_A", rm_stage_mmz1A],
+    ["mmz1_B", rm_stage_mmz1B],
+    ["mmz1_C", rm_stage_mmz1C],
+	["ssz1_A", rm_stage_bcz1A],
+    ["ssz1_B", rm_stage_bcz1B],
+];
