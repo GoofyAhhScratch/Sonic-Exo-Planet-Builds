@@ -1,15 +1,10 @@
-var timetravelpossible = false
-global.timetravelspeed = false;
-global.timetravel_started = false;
-global.timetravelspeed_delay = 15; // Number of frames (30 for half a second at 60 FPS
-global.timetraveleffectshown = false
-global.timepost = 1
-global.stopanimationtimetravel = false
-animation_frame = 1
-
-alarm[0] = global.timetravelspeed_delay;
-global.timetravel_sound_played = false;
-animation_active = false;
-animation_cycle = 0;
-animation_frame = 0;
-animation_repeats = 3; // Number of times to repeat frames 1-4
+#macro SIGN_STATIC 0
+#macro SIGN_SPIN 1
+#macro SIGN_HASSPUN 2
+	
+// Inherit the parent event
+event_inherited();
+	
+obj_set_hitbox(15, 32);
+obj_set_priority(1);
+obj_set_culling(CULLING.DISABLE);

@@ -3,7 +3,7 @@ var OPTIONS_PER_PAGE = 16;
 var _width = camera_get_width(view_current);
 var _height = camera_get_height(view_current);
 var _draw_x = _width / 2;
-var _draw_y = _height / 2;
+var _draw_y = _height / 4;
 
 draw_set_font(global.font_system);
 draw_set_halign(fa_center);

@@ -27,7 +27,7 @@
   ],
   "name":"spr_timetravelpost_past",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Time Travel Shenanigins",
     "path":"folders/Objects/Time Travel Shenanigins.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":16,
     "yorigin":0,
   },
   "swatchColours":null,
