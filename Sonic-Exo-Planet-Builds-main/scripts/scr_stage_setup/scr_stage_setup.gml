@@ -82,8 +82,8 @@ function scr_stage_setup()
         
 			//the stage setup too
 			m_stage_set(1, "SAKURA STATION", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_stage_bcz2A, false);    
-			player_spawn(48, 384, global.player_main, "Instances");
-			player_spawn(28, 384, global.player_cpu, "Instances");
+			player_spawn(32, 544, global.player_main, "Instances");
+			player_spawn(32, 544, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 			
 			//heres the background shit
@@ -218,14 +218,45 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 			
 			//heres the background shit
-			bg_add_layer(spr_bczpast_background_1, 0, 320, 0, 0, 0, 0, 0.00, 0.00);				// the sun is leaking
-			bg_add_layer(spr_bczpast_background_2, 0, 320, 0, 0, 0, 0, 0.45, 0.01);				// m ohnutains
-			bg_add_layer(spr_bczpast_background_3, 0, 320, 0, 0, 0, 0, 0.60, 0.01);				// buildings
-			bg_add_layer(spr_bczpast_background_4, 0, 320, 0, 0, 0, 0, 0.75, 0.05);	
-			bg_add_layer(spr_bczpast_background_5, 0, 320, 0, 0, 0, 0, 0.80, 0.00);		// that pillar thingy
+			bg_add_layer(spr_bczpast_background_1, 0, 500, 0, 0, 0, 0, 0.80, 0.50);				// the sun is leaking
+			bg_add_layer(spr_bczpast_background_2, 0, 500, 0, 0, 0, 0, 0.65, 0.50);				// m ohnutains
+			bg_add_layer(spr_bczpast_background_3, 0, 500, 0, 0, 0, 0, 0.55, 0.50);				// buildings
+			bg_add_layer(spr_bczpast_background_4, 0, 500, 0, 0, 0, 0, 0.45, 0.50);	
+			bg_add_layer(spr_bczpast_background_5, 0, 500, 0, 0, 0, 0, 0.35, 0.50);	
+			bg_add_layer(spr_bczpast_background_6, 0, 500, 0, 0, 0, 0, 0.55, 0.50);// that pillar thingy
+			bg_add_layer(spr_bczpast_background_7, 0, 500, 0, 0, 0, 0, 0.50, 0.50);
+			bg_add_layer(spr_bczpast_background_8, 0, 500, 0, 0, 0, 0, 0.45, 0.50);
+			bg_add_layer(spr_bczpast_background_8, 0, 500, 0, 0, 0, 0, 0.40, 0.50);
+			bg_add_layer(spr_bczpast_background_8, 0, 500, 0, 0, 0, 0, 0.35, 0.50);
+			bg_add_layer(spr_bczpast_background_9, 0, 500, 0, 0, 0, 0, 0.30, 0.50);
+			bg_add_layer(spr_bczpast_background_10, 0, 500, 0, 0, 0, 0, 0.25, 0.50);
         
 		break;
-		    case rm_stage_timetravel_cutscene_past:
+								case rm_stage_bcz1B:
+        
+			//the stage setup too
+			m_stage_set(1, "SAKURA STATION", 0, bgm_bcz_past_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(32, 544, global.player_main, "Instances");
+			player_spawn(32, 544, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			
+			//heres the background shit
+			bg_add_layer(spr_bczpast_background_1, 0, 320, 0, 0, 0, 0, 0.3, 0.04);				// the sun is leaking
+			bg_add_layer(spr_bczpast_background_2, 0, 320, 0, 0, 0, 0, 0.4, 0.04);				// m ohnutains
+			bg_add_layer(spr_bczpast_background_3, 0, 320, 0, 0, 0, 0, 0.5, 0.04);				// buildings
+			bg_add_layer(spr_bczpast_background_4, 0, 320, 0, 0, 0, 0, 0.6, 0.04);	
+			bg_add_layer(spr_bczpast_background_5, 0, 320, 0, 0, 0, 0, 0.7, 0.04);	
+			bg_add_layer(spr_bczpast_background_6, 0, 320, 0, 0, 0.15, 0, 0.55, 0.04);// that pillar thingy
+			bg_add_layer(spr_bczpast_background_7, 0, 320, 0, 0, 0.9, 0, 0.50, 0.04);
+			bg_add_layer(spr_bczpast_background_8, 0, 320, 0, 0, 0.8, 0, 0.45, 0.04);
+			bg_add_layer(spr_bczpast_background_8, 0, 320, 0, 0, 0.6, 0, 0.40, 0.04);
+			bg_add_layer(spr_bczpast_background_8, 0, 320, 0, 0, 0.4, 0, 0.35, 0.04);
+			bg_add_layer(spr_bczpast_background_9, 0, 320, 0, 0, 0.3, 0, 0.30, 0.04);
+			bg_add_layer(spr_bczpast_background_10, 0, 320, 0, 0, 0, 0, 0.25,0.04);
+			
+		break;
+		    
+			case rm_stage_timetravel_cutscene_past:
         // Here's the background setup
         bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0.50, 0, 0);
         break;
