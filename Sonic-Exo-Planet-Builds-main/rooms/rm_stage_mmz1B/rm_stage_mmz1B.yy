@@ -2103,7 +2103,7 @@
           1,268435486,-7,-2147483648,3,150,151,152,-29,249,-1298,-2147483648,-40,0,-55,-2147483648,8,268435486,
           -2147483648,-2147483648,154,155,156,157,249,-29,-2147483648,-2,249,-1298,-2147483648,-40,0,-56,-2147483648,
           -3,248,-1333,-2147483648,-40,0,-101485,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_collision_s3","path":"tilesets/ts_collision_s3/ts_collision_s3.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_collision_s3","path":"tilesets/ts_collision_s3/ts_collision_s3.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"CollisionA","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"CollisionA","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":144,"SerialiseWidth":1432,"TileCompressedData":[
           -10,-2147483648,-523,0,-16,-2147483648,-16,249,-877,-2147483648,-523,0,-16,-2147483648,-16,249,-880,
           -2147483648,-520,0,-16,-2147483648,-16,249,-880,-2147483648,-520,0,-16,-2147483648,-16,249,-906,-2147483648,
@@ -2253,7 +2253,7 @@
           1,249,-1431,-2147483648,1,249,-1431,-2147483648,1,249,-1431,-2147483648,1,249,-1431,-2147483648,1,249,
           -1431,-2147483648,1,249,-1431,-2147483648,1,249,-1431,-2147483648,1,249,-1431,-2147483648,1,249,-1431,
           -2147483648,1,249,-1431,-2147483648,1,249,-1430,-2147483648,2,0,249,-985,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_collision_s3","path":"tilesets/ts_collision_s3/ts_collision_s3.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_collision_s3","path":"tilesets/ts_collision_s3/ts_collision_s3.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4284900966,"depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_stage_mmz1B",
