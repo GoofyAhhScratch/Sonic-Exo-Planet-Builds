@@ -23,7 +23,7 @@ draw_text(_x, _y, c_stage.zone_name);
 
 // Draw the "ZONE" label
 _x = _camera_x + 104 + offset_zone * _factor_x;
-_y = _camera_y - 4;
+_y = _camera_y + 16;
 
 draw_text(_x, _y, "ZONE");
 

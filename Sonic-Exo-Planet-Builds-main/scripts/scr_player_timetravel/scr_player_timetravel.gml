@@ -6,7 +6,7 @@ function scr_player_timetravel()
 	global.obj_player_xvel = vel_x;
 	global.obj_player_yvel = vel_y;
 	global.obj_player_gsp = spd_ground;
-	if abs((vel_x/2)+(vel_y/2)) > 3
+	if abs(spd_ground) > 5
 	{
 		global.HESABOUTTOTRAVEL += 1;
 		global.ttsparkTimer += 1;

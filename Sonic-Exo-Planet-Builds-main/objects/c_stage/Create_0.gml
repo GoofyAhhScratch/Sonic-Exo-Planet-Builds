@@ -81,7 +81,19 @@ var _stage_icon = "";
 switch room
 {
     case rm_stage_tsz0: _stage_icon = "drp_tech_stadium"; break;
+	//Sakura Station
+	case rm_stage_bcz1A: _stage_icon = "drp_blossom_city"; break;
 	case rm_stage_bcz2A: _stage_icon = "drp_blossom_city"; break;
+	case rm_stage_bcz1B: _stage_icon = "drp_blossom_city"; break;
+	case rm_stage_bcz2B: _stage_icon = "drp_blossom_city"; break;
+	
+	//Ghastly Gourd
+	case rm_stage_ggz1A: _stage_icon = "drp_ghastly"; break;
+	
+	//Minty Mountain
+	case rm_stage_mmz1A: _stage_icon = "drp_minty"; break;
+	case rm_stage_mmz1B: _stage_icon = "drp_minty"; break;
+	case rm_stage_mmz1C: _stage_icon = "drp_minty"; break;
 }
 
 discord_set_data($"{zone_name}", act_id == ACT_SINGLE ? "Single Act" : $"Act {act_id + 1}", _stage_icon, _player_icon);
