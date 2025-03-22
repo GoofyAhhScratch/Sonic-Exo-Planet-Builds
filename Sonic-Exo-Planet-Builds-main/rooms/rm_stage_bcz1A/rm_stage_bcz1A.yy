@@ -1401,7 +1401,7 @@
           -843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,
           249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,
           -68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-843,0,-68,249,-28047,0,-20042,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_collision_s3","path":"tilesets/ts_collision_s3/ts_collision_s3.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_collision_s3","path":"tilesets/ts_collision_s3/ts_collision_s3.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
   ],
   "name":"rm_stage_bcz1A",
   "parent":{
