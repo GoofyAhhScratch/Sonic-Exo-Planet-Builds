@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bczA_platform",
-  "eventList":[],
+  "%Name":"obj_bcz_platform",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_bczA_platform",
+  "name":"obj_bcz_platform",
   "overriddenProperties":[],
   "parent":{
     "name":"Blossom City",
@@ -36,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bczA_platform",
-    "path":"sprites/spr_bczA_platform/spr_bczA_platform.yy",
+    "name":"spr_bcz_platform",
+    "path":"sprites/spr_bcz_platform/spr_bcz_platform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

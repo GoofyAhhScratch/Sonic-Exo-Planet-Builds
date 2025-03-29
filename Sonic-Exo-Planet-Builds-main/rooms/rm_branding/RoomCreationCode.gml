@@ -12,3 +12,4 @@ global.stageIndexes = [
 	"aaz",
 ];
 global.timetravelingTo = "";
+global.timezone = 1

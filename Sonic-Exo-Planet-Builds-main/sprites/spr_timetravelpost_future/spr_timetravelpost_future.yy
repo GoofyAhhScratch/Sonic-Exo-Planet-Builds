@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"Time Travel Shenanigins",
-    "path":"folders/Objects/Time Travel Shenanigins.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

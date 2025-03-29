@@ -1,4 +1,4 @@
-global.past = true
+global.present = true
 global.future = false
-global.present = false
+global.past = false
 global.zoneact = 1

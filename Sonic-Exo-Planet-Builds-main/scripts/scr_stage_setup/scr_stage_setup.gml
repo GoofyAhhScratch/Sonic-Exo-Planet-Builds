@@ -97,8 +97,8 @@ function scr_stage_setup()
         
 			//the stage setup too
 			m_stage_set(4, "MINTY MOUNTAIN", 0, bgm_minty_mountain_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
-			player_spawn(57, 217, global.player_main, "Instances");
-			player_spawn(35, 217, global.player_cpu, "Instances");
+			player_spawn(80, 2064, global.player_main, "Instances");
+			player_spawn(70, 2064, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 			
 // Add background layers
@@ -127,8 +127,8 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
         
 			//the stage setup too
 			m_stage_set(4, "MINTY MOUNTAIN", 0, bgm_mmz_p_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
-			player_spawn(57, 217, global.player_main, "Instances");
-			player_spawn(35, 217, global.player_cpu, "Instances");
+			player_spawn(80, 2064, global.player_main, "Instances");
+			player_spawn(70, 2064, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 			
 			//heres the background shit
