@@ -74,7 +74,7 @@ function scr_stage_setup()
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking
 			bg_add_layer(spr_bcz_background_1, 0, 320, 0, 0, 0, 0, 0.45, 0.02);				// m ohnutains
 			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
-			bg_add_layer(spr_bcz_background_3, 0, 320, 0, 0, 0, 0, 0.75, 0.14);				// that pillar thingy
+			bg_add_layer(spr_bcz_background_3, 0, 320, 0, 0, 0, 0, 0.70, 0.07);				// that pillar thingy
         
 		break;
 					
@@ -90,7 +90,7 @@ function scr_stage_setup()
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking
 			bg_add_layer(spr_bcz_background_1, 0, 320, 0, 0, 0, 0, 0.45, 0.02);				// m ohnutains
 			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
-			bg_add_layer(spr_bcz_background_3, 0, 320, 0, 0, 0, 0, 0.75, 0.14);				// that pillar thingy
+			bg_add_layer(spr_bcz_background_3, 0, 320, 0, 0, 0, 0, 0.70, 0.07);				// that pillar thingy
         
 		break;
 		case rm_stage_mmz1A:
