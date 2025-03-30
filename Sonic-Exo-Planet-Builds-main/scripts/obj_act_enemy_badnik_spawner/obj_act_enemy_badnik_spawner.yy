@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"obj_act_enemy_badnik_spawner",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"obj_act_enemy_badnik_spawner",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

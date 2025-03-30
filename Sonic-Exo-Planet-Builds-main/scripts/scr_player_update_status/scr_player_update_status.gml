@@ -25,7 +25,7 @@ function scr_player_update_status()
 	// Power Sneakers power-up
 	if item_speed_timer > 0
 	{
-		if --item_speed_timer == 0 && audio_is_playing(bgm_highspeed)
+		if --item_speed_timer == 0 && audio_is_playing(bgm_invincibility)
 		{
 			audio_reset_bgm(c_stage.bgm_track, id);
 		}

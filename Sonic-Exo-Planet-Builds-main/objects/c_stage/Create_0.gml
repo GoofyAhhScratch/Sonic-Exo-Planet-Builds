@@ -42,7 +42,6 @@ if water_enabled
     instance_create_depth(0, 0, RENDERER_DEPTH_HIGHEST, obj_water_surface);
 }
 
-global.isGoodFuture = true;
 if global.timetravelingTo == "" {
 	global.obj_player_xvel = 0;
 	global.obj_player_yvel = 0;	
@@ -156,4 +155,5 @@ global.roomTT = [
     ["mmz1_C", rm_stage_mmz1C],
 	["ssz1_A", rm_stage_bcz1A],
     ["ssz1_B", rm_stage_bcz1B],
+	["ssz1_C", rm_stage_bcz1C],
 ];

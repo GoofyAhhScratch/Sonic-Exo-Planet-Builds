@@ -97,6 +97,7 @@
     {"name":"inst_23C00C9B","path":"rooms/rm_stage_bcz1A/rm_stage_bcz1A.yy",},
     {"name":"inst_6FFA61AC","path":"rooms/rm_stage_bcz1A/rm_stage_bcz1A.yy",},
     {"name":"inst_63530B39","path":"rooms/rm_stage_bcz1A/rm_stage_bcz1A.yy",},
+    {"name":"inst_A9077A","path":"rooms/rm_stage_bcz1A/rm_stage_bcz1A.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -2535,6 +2536,7 @@
         {"$GMRInstance":"v1","%Name":"inst_23C00C9B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23C00C9B","objectId":{"name":"obj_timetravelpost_future","path":"objects/obj_timetravelpost_future/obj_timetravelpost_future.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2592.0,"y":224.0,},
         {"$GMRInstance":"v1","%Name":"inst_6FFA61AC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6FFA61AC","objectId":{"name":"obj_timetravelpost_future","path":"objects/obj_timetravelpost_future/obj_timetravelpost_future.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4384.0,"y":192.0,},
         {"$GMRInstance":"v1","%Name":"inst_63530B39","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63530B39","objectId":{"name":"obj_timetravelpost_past","path":"objects/obj_timetravelpost_past/obj_timetravelpost_past.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7056.0,"y":336.0,},
+        {"$GMRInstance":"v1","%Name":"inst_A9077A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A9077A","objectId":{"name":"obj_badniks_spawner","path":"objects/obj_badniks_spawner/obj_badniks_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6888.0,"y":1568.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"GraphicsA","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GraphicsA","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":166,"SerialiseWidth":911,"TileCompressedData":[
           -24623,0,6,2,3,2,3,2,3,-905,0,6,20,21,20,21,20,21,-16664,0,4,72,73,72,73,-4,0,4,72,73,72,73,-899,0,4,

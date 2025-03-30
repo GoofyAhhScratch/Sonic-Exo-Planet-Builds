@@ -98,6 +98,7 @@
     {"name":"inst_4C5716EB","path":"rooms/rm_stage_bcz1B/rm_stage_bcz1B.yy",},
     {"name":"inst_66D5400A","path":"rooms/rm_stage_bcz1B/rm_stage_bcz1B.yy",},
     {"name":"inst_107B477D","path":"rooms/rm_stage_bcz1B/rm_stage_bcz1B.yy",},
+    {"name":"inst_40C0F355","path":"rooms/rm_stage_bcz1B/rm_stage_bcz1B.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -2537,6 +2538,7 @@
         {"$GMRInstance":"v1","%Name":"inst_4C5716EB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C5716EB","objectId":{"name":"obj_timetravelpost_future","path":"objects/obj_timetravelpost_future/obj_timetravelpost_future.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3632.0,"y":1056.0,},
         {"$GMRInstance":"v1","%Name":"inst_66D5400A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66D5400A","objectId":{"name":"obj_timetravelpost_future","path":"objects/obj_timetravelpost_future/obj_timetravelpost_future.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7024.0,"y":336.0,},
         {"$GMRInstance":"v1","%Name":"inst_107B477D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_107B477D","objectId":{"name":"obj_timetravelpost_future","path":"objects/obj_timetravelpost_future/obj_timetravelpost_future.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":9248.0,"y":1728.0,},
+        {"$GMRInstance":"v1","%Name":"inst_40C0F355","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40C0F355","objectId":{"name":"obj_badnikspawner_past","path":"objects/obj_badnikspawner_past/obj_badnikspawner_past.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6887.0,"y":1568.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"GraphicsA","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GraphicsA","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":166,"SerialiseWidth":911,"TileCompressedData":[
           -24623,0,6,2,3,2,3,2,3,-905,0,6,20,21,20,21,20,21,-16664,0,4,72,73,72,73,-4,0,4,72,73,72,73,-899,0,4,

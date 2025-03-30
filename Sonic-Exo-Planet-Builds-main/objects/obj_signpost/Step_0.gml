@@ -109,7 +109,8 @@ switch state
 			}
 		}
 		
-		instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_results);		
+		instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_results);	
+		global.isGoodFuture = false
 		state++;
 		
 	break;

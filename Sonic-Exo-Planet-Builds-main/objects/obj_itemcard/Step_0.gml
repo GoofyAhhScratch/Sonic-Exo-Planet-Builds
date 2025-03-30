@@ -40,10 +40,10 @@ switch state
 			
                 if _player.super_timer <= 0
                 {
-                    audio_play_bgm(bgm_highspeed);
+                    audio_play_bgm(bgm_invincibility);
                 }
 				
-                _player.item_speed_timer = 1200;
+                _player.item_speed_timer = 2040;
 				
             break;
                 

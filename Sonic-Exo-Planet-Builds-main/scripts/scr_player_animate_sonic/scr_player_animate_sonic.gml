@@ -83,11 +83,21 @@ function scr_player_animate_sonic()
 				ani_start(spr_sonic_dropdash, 1, 0, 0, [0, 2, 1, 3, 0, 4, 1, 5, 0, 6, 1, 7, 0, 8, 1, 9]);
 				break;
 			}
+			else
+			{
 			
 			var _duration = floor(max(1, 5 - abs(spd_ground)));
-			
-			ani_start(spr_sonic_spin, _duration, 0, 0, [0, 4, 1, 4, 2, 4, 3, 4]);
+			if !global.dash || abs(spd_ground) <= 5
+			{
+			ani_start(spr_sonic_spin_normal, _duration, 0, 0, [0, 4, 1, 4, 2, 4, 3, 4]);
 			ani_update_duration(_duration);
+			}
+			else
+			{
+			ani_start(spr_sonic_spin_fast, _duration, 0, 0, [0, 4, 1, 4, 2, 4, 3, 4]);
+			ani_update_duration(_duration);
+			}
+			}
 			
 		break;
 		

@@ -18,7 +18,7 @@ function audio_reset_bgm(_default_bgm, _player = noone)
 	}
 	else if _player.item_speed_timer > 0
 	{
-		audio_play_bgm(bgm_highspeed);
+		audio_play_bgm(bgm_invincibility);
 	}
 	else
 	{

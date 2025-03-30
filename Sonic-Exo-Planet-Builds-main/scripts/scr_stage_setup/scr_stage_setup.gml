@@ -85,6 +85,9 @@ function scr_stage_setup()
 			player_spawn(32, 544, global.player_main, "Instances");
 			player_spawn(32, 544, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+						if (global.rhs = true) {
+			pal_load(spr_pal_tsz_primary, spr_pal_rhs);
+			}
 			
 			//heres the background shit
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking
@@ -100,6 +103,9 @@ function scr_stage_setup()
 			player_spawn(80, 2064, global.player_main, "Instances");
 			player_spawn(70, 2064, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+						if (global.rhs = true) {
+			pal_load(spr_pal_tsz_primary, spr_pal_rhs);
+			}
 			
 // Add background layers
 bg_add_layer(spr_mmz_background_6, 0, 320, 0, 0, 0, 0, 0, 0);
@@ -255,10 +261,23 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 			bg_add_layer(spr_bczpast_background_10, 0, 320, 0, 0, 0, 0, 0.25,0.04);
 			
 		break;
+					//the stage setup too
+					case rm_stage_bcz1C:
+			
+			m_stage_set(2, "SAKURA STATION", 0, bgm_bcz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(48, 384, global.player_main, "Instances");
+			player_spawn(28, 384, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			
+			//heres the background shit
+			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking			// m ohnutains
+			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
+			break;
 		    
 			case rm_stage_timetravel_cutscene_past:
         // Here's the background setup
         bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0.50, 0, 0);
         break;
+		
 	}
 }

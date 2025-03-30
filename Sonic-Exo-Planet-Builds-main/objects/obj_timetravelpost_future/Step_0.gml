@@ -11,11 +11,14 @@ switch State
 		audio_play_sfx(sfx_future);
 		if global.timezone = 2 { global.timetravelingTo = "A" } //present
 		else {
-			if global.isGoodFuture = true {
-				global.timetravelingTo = "C"
-			} else {
-				global.timetravelingTo = "D"
-			}
+            if (global.isGoodFuture == true && global.timezone == 1)
+            {
+                global.timetravelingTo = "C";
+            }
+          else
+            {
+                global.timetravelingTo = "D";
+            }
 		}
 		State = SIGN_SPIN;
 	break;

@@ -15,3 +15,4 @@ digit_offset_x = camera_get_width(0);
 bg_set_colour(c_white);
 fade_perform_black(FADEROUTINE.IN, 1);
 global.timetravelaction = false;
+global.isGoodFuture = false
