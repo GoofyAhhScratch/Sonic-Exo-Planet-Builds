@@ -48,7 +48,7 @@ function scr_player_jump()
 				if shield <= SHIELD_NORMAL || super_timer > 0 || item_inv_timer > 0
 				{
 					action = ACTION_DROPDASH;
-					dropdash_charge = 0;
+					dropdash_charge = 1;
 				}
 			}
 			

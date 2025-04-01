@@ -148,7 +148,7 @@ function scr_player_animate_sonic()
 		break;
 		
 		case ANI_SKID:
-			ani_start(spr_sonic_skid, 6, 0, 3);
+			ani_start(spr_sonic_skid, 6, 0, 1);
 		break;
 		
 		case ANI_TRANSFORM:
@@ -172,7 +172,7 @@ function scr_player_animate_sonic()
 		break;
 		
 		case ANI_BOUNCE:
-			ani_start(spr_sonic_bounce,10,0,3, [0, 1, 2, 3,]);
+			ani_start(spr_sonic_bounce,10,0,5, [0, 1, 2, 3, 4, 5,]);
 		break;
 		
 		case ANI_BALANCE:
