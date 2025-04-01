@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sonic_timetravel",
-    "path":"sprites/spr_sonic_timetravel/spr_sonic_timetravel.yy",
+    "name":"spr_sonic_bounce",
+    "path":"sprites/spr_sonic_bounce/spr_sonic_bounce.yy",
   },
   "spriteMaskId":null,
   "visible":true,

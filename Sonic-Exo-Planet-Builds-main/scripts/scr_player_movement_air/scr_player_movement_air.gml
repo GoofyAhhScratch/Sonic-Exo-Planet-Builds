@@ -7,6 +7,8 @@ function scr_player_movement_air()
 		exit;
 	}
 	
+	if vel_y < 0 && !is_jumping { animation = ANI_FALL; }
+	
 	// Adjust angle based on its value
 	if angle != 0
 	{

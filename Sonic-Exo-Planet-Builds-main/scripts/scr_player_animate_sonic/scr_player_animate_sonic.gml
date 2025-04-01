@@ -147,8 +147,12 @@ function scr_player_animate_sonic()
 			ani_start(spr_sonic_drown);
 		break;
 		
+		case ANI_FALL:
+			ani_start(spr_sonic_fall, 8, 0, 1);
+		break;
+		
 		case ANI_SKID:
-			ani_start(spr_sonic_skid, 6, 0, 1);
+			ani_start(spr_sonic_skid, [9, 6, 6], 0, 1);
 		break;
 		
 		case ANI_TRANSFORM:

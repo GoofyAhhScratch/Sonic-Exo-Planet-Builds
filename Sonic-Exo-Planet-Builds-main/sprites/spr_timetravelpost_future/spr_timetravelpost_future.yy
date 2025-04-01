@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"TT Shenanigans",
+    "path":"folders/Sprites/TT Shenanigans.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

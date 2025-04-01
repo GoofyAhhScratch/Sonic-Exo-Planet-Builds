@@ -12,7 +12,7 @@ switch (state) {
         var smoothY = lerp(startY, endY, sin(angle));
         
         // Apply the new position
-        y = smoothY;
+        y = smoothY + (sin(elapsedTime/5)*5);
         x = xPosition;
         
         // Check if the target position is reached
@@ -25,6 +25,7 @@ switch (state) {
     case "waitAt96":
         // Increment elapsed time
         elapsedTime += 1;
+		y = endY + (sin(elapsedTime/5)*5);
         
         // Wait for the specified time
         if (elapsedTime >= waitTime) {
@@ -39,7 +40,10 @@ switch (state) {
         // Map t to an angle from 0 to π/2
         angle = lerp(0, pi / 2, t);
         // Calculate the smooth Y position using the sine function
-        smoothY = lerp(endY, 224, sin(angle));
+        smoothY = lerp(endY, endY+64, sin(angle));
+		if angle > 180 {
+			smoothY = lerp(endY, endY+128, sin(angle));
+		}
         
         // Apply the new position
         y = smoothY;

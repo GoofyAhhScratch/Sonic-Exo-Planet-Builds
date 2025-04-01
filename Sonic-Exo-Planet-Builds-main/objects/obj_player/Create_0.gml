@@ -101,6 +101,7 @@
 #macro ANI_CLIMB_WALL 30
 #macro ANI_CLIMB_LEDGE 31
 #macro ANI_HAMMERDASH 32
+#macro ANI_FALL 33
 
 #endregion
 
