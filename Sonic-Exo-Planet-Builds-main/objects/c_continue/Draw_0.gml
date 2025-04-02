@@ -1,5 +1,5 @@
 // Set font and alignment for the title
-draw_set_font(global.font_large);
+draw_set_font(global.font_large_up);
 draw_set_halign(fa_center);
 draw_text(half_width, half_height - 54, "CONTINUE");
 

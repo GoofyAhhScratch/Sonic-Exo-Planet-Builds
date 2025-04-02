@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":1,
+  "compression":0,
   "conversionMode":0,
-  "duration":27.533787,
+  "duration":22.613333,
   "name":"bgm_highspeed",
   "parent":{
     "name":"BGM",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"bgm_highspeed.ogg",
-  "type":1,
+  "type":0,
   "volume":1.0,
 }

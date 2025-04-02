@@ -17,15 +17,15 @@ draw_sprite(spr_gui_card_banner, 0, _x, _y);
 _x = _camera_x + 129 + offset_zonename * _factor_x;
 _y = _camera_y - 26;
 
-draw_set_font(global.font_large);
+draw_set_font(global.font_large_down);
 draw_set_halign(fa_right);
 draw_text(_x, _y, c_stage.zone_name);
 
 // Draw the "ZONE" label
 _x = _camera_x + 104 + offset_zone * _factor_x;
 _y = _camera_y + 16;
-
-draw_text(_x, _y, "ZONE");
+draw_set_font(global.font_large_up);
+draw_text(_x, _y, "Zone");
 
 // Draw the act number sprite
 _x = _camera_x + 117 + offset_act * _factor_x;

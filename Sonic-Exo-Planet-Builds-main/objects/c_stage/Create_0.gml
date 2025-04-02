@@ -33,6 +33,7 @@ bound_right = array_create(CAMERA_COUNT, room_width);
 bound_speed = array_create(CAMERA_COUNT, 0);
 bound_bottom_init = room_height;
 bound_end = room_width;
+global.hudOffset = 0;
 
 // Set up the stage
 scr_stage_setup();
@@ -156,4 +157,5 @@ global.roomTT = [
 	["ssz1_A", rm_stage_bcz1A],
     ["ssz1_B", rm_stage_bcz1B],
 	["ssz1_C", rm_stage_bcz1C],
+	["ssz1_D", rm_stage_bcz1D],
 ];

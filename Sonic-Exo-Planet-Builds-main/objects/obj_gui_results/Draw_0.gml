@@ -15,19 +15,19 @@ var _is_single_act = c_stage.act_id == ACT_SINGLE;
 
 // Position and draw player text
 _x = _centre_x + offset_line1 * _factor_x;
-_y = _centre_y - 56;
+_y = _centre_y - 64;
 
 if !_is_single_act && player_object_type == PLAYER_KNUCKLES
 {
     _x -= 28;
 }
 
-var _player_text = "SONIC";
+var _player_text = "Sonic";
 
 switch player_object_type
 {
     case PLAYER_TAILS:
-        _player_text = "TAILS";
+        _player_text = "Tails";
     break;
 	
     case PLAYER_KNUCKLES:
@@ -35,19 +35,20 @@ switch player_object_type
     break;
 	
     case PLAYER_AMY:
-        _player_text = "AMY";
+        _player_text = "Amy";
     break;
 }
 
-draw_set_font(global.font_large);
+draw_set_font(global.font_large_down);
 draw_set_halign(fa_center);
-draw_text(_x, _y, $"{_player_text} GOT");
+draw_text(_x-8, _y, $"{_player_text} got");
 
 // Position and draw stage text and act
 _x = _centre_x + offset_line2 * _factor_x;
 _y = _centre_y - 38;
 
-draw_text(_x - 13 * !_is_single_act, _y, _is_single_act ? "THROUGH ZONE" : "THROUGH ACT");
+draw_set_font(global.font_large_down);
+draw_text(_x - 13 * !_is_single_act, _y, _is_single_act ? "Through zone" : "Through act");
 draw_sprite(spr_gui_act, c_stage.act_id, _x + 98, _y + 4);
 
 // Position and draw time bonus

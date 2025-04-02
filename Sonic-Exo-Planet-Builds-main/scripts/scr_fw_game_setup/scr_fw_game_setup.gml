@@ -19,8 +19,9 @@ function scr_fw_game_setup()
 	global.discord_app_id = "1325184353952731281";
 	
 	// Fonts
-	global.font_large = font_register(spr_font_large, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", true, 0);
-	global.font_large_alt = font_register(spr_font_large_alt, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", true, 0);
+	global.font_large_up = font_register(spr_font_large_up, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", true, 0);
+	global.font_large_down = font_register(spr_font_large_down, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", true, 0);
+	global.font_large_up_alt = font_register(spr_font_large_alt, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", true, 0);
 	global.font_small = font_register(spr_font_small, "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*.:!-+_", false, 0);
 	global.font_digits = font_register(spr_font_digits, "0123456789:';", false, 1);
 	global.font_digits_alt = font_register(spr_font_digits_alt, "0123456789:';", false, 1);
@@ -62,7 +63,7 @@ function scr_fw_game_setup()
 	global.player_main = PLAYER_SONIC;
 	global.player_cpu = PLAYER_NOONE;
 	global.continue_count = 0;
-	global.emerald_count = 0;
+	global.emerald_count = 7;
 	global.life_count = 0;
 	global.score_count = 0;
 	global.player_rings = 0;

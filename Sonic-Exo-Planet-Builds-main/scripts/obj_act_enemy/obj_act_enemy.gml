@@ -9,7 +9,7 @@ function obj_act_enemy(_type = ENEMYTYPE.BADNIK)
 	{
 		_player.m_player_add_score(++_player.score_combo);
 		instance_create(x, y, obj_score, { ScoreCombo: _player.score_combo });
-		instance_create(x, y, obj_animal);
+		instance_create(x, y, obj_flowerSpawner);
 		instance_create(x, y, obj_explosion_dust);
 		instance_destroy();
 	}

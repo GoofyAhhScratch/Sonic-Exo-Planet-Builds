@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":1,
+  "compression":0,
   "conversionMode":0,
-  "duration":5.0,
+  "duration":8.266667,
   "name":"bgm_actclear",
   "parent":{
     "name":"BGM",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"bgm_actclear.ogg",
-  "type":1,
+  "type":0,
   "volume":1.0,
 }

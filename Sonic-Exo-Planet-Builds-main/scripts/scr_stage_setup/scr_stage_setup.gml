@@ -25,9 +25,16 @@ function scr_stage_setup()
 	// Stage setup
 	switch room
 	{
+		case rm_stage_temp:
+			m_stage_set(2, "Temporary", 0, bgm_minty_mountain_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(48, 8, global.player_main, "Instances");
+			player_spawn(28, 8, global.player_cpu, "Instances");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+		break;
 		case rm_stage_tsz0:
 		
-			m_stage_set(0, "TECH STADIUM", ACT_SINGLE, bgm_woofle, m_local_random_animals(_animal_array), 1024, 1536, rm_devmenu, true);
+			m_stage_set(0, "Tech Stadium", ACT_SINGLE, bgm_woofle, m_local_random_animals(_animal_array), 1024, 1536, rm_devmenu, true);
 			
 			player_spawn(112, 896, global.player_main, "Objects");
 			player_spawn(96, 896, global.player_cpu, "Objects");
@@ -65,10 +72,11 @@ function scr_stage_setup()
 		case rm_stage_bcz2A:
         
 			//the stage setup too
-			m_stage_set(2, "SAKURA STATION", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(2, "Sakura Station", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(48, 384, global.player_main, "Instances");
 			player_spawn(28, 384, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 			//heres the background shit
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking
@@ -81,13 +89,11 @@ function scr_stage_setup()
 		case rm_stage_bcz1A:
         
 			//the stage setup too
-			m_stage_set(1, "SAKURA STATION", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_stage_bcz2A, false);    
+			m_stage_set(1, "Sakura Station", 0, bgm_blossom_city_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_stage_bcz2A, false);    
 			player_spawn(32, 544, global.player_main, "Instances");
 			player_spawn(32, 544, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
-						if (global.rhs = true) {
-			pal_load(spr_pal_tsz_primary, spr_pal_rhs);
-			}
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 			//heres the background shit
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking
@@ -99,13 +105,11 @@ function scr_stage_setup()
 		case rm_stage_mmz1A:
         
 			//the stage setup too
-			m_stage_set(4, "MINTY MOUNTAIN", 0, bgm_minty_mountain_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(4, "Minty Mountain", 0, bgm_minty_mountain_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(80, 2064, global.player_main, "Instances");
 			player_spawn(70, 2064, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
-						if (global.rhs = true) {
-			pal_load(spr_pal_tsz_primary, spr_pal_rhs);
-			}
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 // Add background layers
 bg_add_layer(spr_mmz_background_6, 0, 320, 0, 0, 0, 0, 0, 0);
@@ -132,10 +136,11 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 				case rm_stage_mmz1B:
         
 			//the stage setup too
-			m_stage_set(4, "MINTY MOUNTAIN", 0, bgm_mmz_p_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(4, "Minty Mountain", 0, bgm_mmz_p_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(80, 2064, global.player_main, "Instances");
 			player_spawn(70, 2064, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 			//heres the background shit
 			bg_add_layer(spr_mmz_past_backgorund_4, 0, 500, 0, 0, 0, 0, 0.40, 0.02);	
@@ -148,10 +153,11 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 						case rm_stage_mmz1C:
         
 			//the stage setup too
-			m_stage_set(4, "MINTY MOUNTAIN", 0, bgm_mmz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(4, "Minty Mountain", 0, bgm_mmz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(57, 217, global.player_main, "Instances");
 			player_spawn(35, 217, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 			//heres the background shit
 			bg_add_layer(spr_mmz_gf_background_9, 0, 500, 0, 0, 0, 0, 0.15, 0.02);	
@@ -169,10 +175,11 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 			case rm_stage_tutorial:
         
 			//the stage setup too
-			m_stage_set(4, "TUTORIAL", 0, bgm_mmz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(4, "Tutorial", 0, bgm_mmz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(57, 217, global.player_main, "Instances");
 			player_spawn(35, 217, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 			//heres the background shit
 			bg_add_layer(spr_mmz_past_backgorund_4, 0, 500, 0, 0, 0, 0, 0.40, 0.02);	
@@ -185,10 +192,11 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 		case rm_stage_ggz1A:
         
 			//the stage setup too
-			m_stage_set(4, "GHASTLY GOURD", 0, bgm_ghastly_gourd_present, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(4, "Ghastly Gourd", 0, bgm_ghastly_gourd_present, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(57, 217, global.player_main, "Instances");
 			player_spawn(35, 217, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 			//heres the background shit
 			bg_add_layer(spr_ggz_present_background_4, 0, 500, 0, 0, 0, 0, 0, 0.00);	
@@ -201,10 +209,11 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 		case rm_stage_aaz1A:
         
 			//the stage setup too
-			m_stage_set(4, "ABASE AIRS", 0, bgm_ghastly_gourd_present, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(4, "Abase Airs", 0, bgm_ghastly_gourd_present, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(57, 217, global.player_main, "Instances");
 			player_spawn(35, 217, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 			//heres the background shit
 			bg_add_layer(spr_mmz_background_6, 0, 320, 0, 0, 0, 0, 0, 0);
@@ -214,15 +223,15 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 			bg_add_layer(spr_mmz_background_2, 0, 320, 0, 0, 0.30, 0, 0.60, 0.02);
 			bg_add_layer(spr_mmz_background_1, 0, 320, 0, 0, 0.20, 0, 0.60, 0.02);	// m ohnutains
 
-				break;
-						case rm_stage_bcz2B:
+		break;
+		case rm_stage_bcz2B:
         
 			//the stage setup too
-			m_stage_set(1, "SAKURA STATION", 0, bgm_bcz_past_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(1, "Sakura Station", 0, bgm_bcz_past_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(48, 384, global.player_main, "Instances");
 			player_spawn(28, 384, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
-			
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			//heres the background shit
 			bg_add_layer(spr_bczpast_background_1, 0, 500, 0, 0, 0, 0, 0.80, 0.50);				// the sun is leaking
 			bg_add_layer(spr_bczpast_background_2, 0, 500, 0, 0, 0, 0, 0.65, 0.50);				// m ohnutains
@@ -238,14 +247,14 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 			bg_add_layer(spr_bczpast_background_10, 0, 500, 0, 0, 0, 0, 0.25, 0.50);
         
 		break;
-								case rm_stage_bcz1B:
+		case rm_stage_bcz1B:
         
 			//the stage setup too
-			m_stage_set(1, "SAKURA STATION", 0, bgm_bcz_past_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(1, "Sakura Station", 0, bgm_bcz_past_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(32, 544, global.player_main, "Instances");
 			player_spawn(32, 544, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
-			
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			//heres the background shit
 			bg_add_layer(spr_bczpast_background_1, 0, 320, 0, 0, 0, 0, 0.3, 0.04);				// the sun is leaking
 			bg_add_layer(spr_bczpast_background_2, 0, 320, 0, 0, 0, 0, 0.4, 0.04);				// m ohnutains
@@ -261,23 +270,30 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 			bg_add_layer(spr_bczpast_background_10, 0, 320, 0, 0, 0, 0, 0.25,0.04);
 			
 		break;
-					//the stage setup too
-					case rm_stage_bcz1C:
+		//the stage setup too
+		case rm_stage_bcz1C:
 			
-			m_stage_set(2, "SAKURA STATION", 0, bgm_bcz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(2, "Sakura Station", 0, bgm_bcz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(48, 384, global.player_main, "Instances");
 			player_spawn(28, 384, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
-			
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			//heres the background shit
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking			// m ohnutains
 			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
-			break;
-		    
-			case rm_stage_timetravel_cutscene_past:
-        // Here's the background setup
-        bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0.50, 0, 0);
-        break;
+		break;
+		//the stage setup too
+		case rm_stage_bcz1D:
+			
+			m_stage_set(2, "Sakura Station", 0, bgm_bcz_bf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(48, 384, global.player_main, "Instances");
+			player_spawn(28, 384, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
+			//heres the background shit
+			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking			// m ohnutains
+			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
+		break; 
 		
 	}
 }

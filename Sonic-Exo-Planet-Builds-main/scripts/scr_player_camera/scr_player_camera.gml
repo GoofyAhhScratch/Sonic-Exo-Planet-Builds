@@ -62,10 +62,10 @@ function scr_player_camera()
 	if global.cd_camera
 	{
 		var _x_shift_dist = 64;
-		var _x_shift_spd = 2;
+		var _x_shift_spd = 2
 		var _x_shift_dir = spd_ground != 0 ? sign(spd_ground) : facing;
 		
-		if abs(vel_x) >= 1 || action == ACTION_SPINDASH
+		if abs(vel_x) >= 4 || action == ACTION_SPINDASH
 		{
 			if _camera_data.delay_x == 0 && _camera_data.offset_x != _x_shift_dist * _x_shift_dir
 			{

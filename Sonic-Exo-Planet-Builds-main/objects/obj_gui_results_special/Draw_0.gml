@@ -33,7 +33,7 @@ switch global.player_main
     break;
 }
 
-draw_set_font(global.font_large_alt);
+draw_set_font(global.font_large_up_alt);
 draw_set_halign(fa_center);
 
 if message_super
