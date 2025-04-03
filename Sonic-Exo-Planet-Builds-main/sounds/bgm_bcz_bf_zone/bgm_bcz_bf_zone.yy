@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":88.920296,
+  "duration":235.54607,
   "name":"bgm_bcz_bf_zone",
   "parent":{
     "name":"BGM",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_bcz_bf_zone.ogg",
+  "soundFile":"bgm_bcz_bf_zone.mp3",
   "type":0,
   "volume":1.0,
 }
