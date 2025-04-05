@@ -14,3 +14,6 @@ global.stageIndexes = [
 global.timetravelingTo = "";
 global.timezone = 1
 global.rhs = false
+global.activated = false
+teleportx = 0
+teleporty = 0
