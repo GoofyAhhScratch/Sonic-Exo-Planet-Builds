@@ -26,7 +26,8 @@ function scr_stage_setup()
 	switch room
 	{
 		case rm_stage_temp:
-			m_stage_set(2, "Temporary", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);      
+		m_stage_set(2, "Temporary", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			
 			player_spawn(48, 8, global.player_main, "Instances");
 			player_spawn(28, 8, global.player_cpu, "Instances");
 			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
