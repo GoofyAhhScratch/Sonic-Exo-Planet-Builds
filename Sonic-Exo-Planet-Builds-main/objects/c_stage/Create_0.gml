@@ -1,4 +1,4 @@
-#macro ACT_SINGLE 3
+bgm#macro ACT_SINGLE 3
 
 /// @method m_stage_set
 m_stage_set = function(_stage_index, _name, _act_id, _bgm, _animals, _bottom_bound, _water_pos, _next_room, _do_save)

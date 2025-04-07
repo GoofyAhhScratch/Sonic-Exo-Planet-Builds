@@ -26,7 +26,7 @@ function scr_stage_setup()
 	switch room
 	{
 		case rm_stage_temp:
-			m_stage_set(2, "Temporary", 0, bgm_minty_mountain_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(2, "Temporary", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);      
 			player_spawn(48, 8, global.player_main, "Instances");
 			player_spawn(28, 8, global.player_cpu, "Instances");
 			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
@@ -133,23 +133,27 @@ if (background_frame >= total_frames) {
 // Draw the animated background layer
 draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 		break;
-				case rm_stage_mmz1B:
+case rm_stage_mmz1B:
         
-			//the stage setup too
-			m_stage_set(4, "Minty Mountain", 0, bgm_mmz_p_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
-			player_spawn(80, 2064, global.player_main, "Instances");
-			player_spawn(70, 2064, global.player_cpu, "Instances");
-			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
-			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
-			
-			//heres the background shit
-			bg_add_layer(spr_mmz_past_backgorund_4, 0, 500, 0, 0, 0, 0, 0.40, 0.02);	
-			bg_add_layer(spr_mmz_past_backgorund_3, 0, 500, 0, 0, 0, 0, 0.45, 0.03);		
-			bg_add_layer(spr_mmz_past_backgorund_2, 0, 500, 0, 0, 0, 0, 0.60, 0.03);				// the sun is leaking
-			bg_add_layer(spr_mmz_past_backgorund_1, 0, 500, 0, 0, 0, 0, 0.75, 0.03);				// m ohnutains
-			
-        
-		break;
+    // The stage setup
+    m_stage_set(4, "Minty Mountain", 0, bgm_mmz_p_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, 2400, rm_devmenu, false);    
+    player_spawn(80, 2064, global.player_main, "Instances");
+    player_spawn(70, 2064, global.player_cpu, "Instances");
+    collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+    pal_load(spr_pal_default_primary, spr_pal_default_secondary);
+    
+    // Set water tint color
+    bg_set_colour(#6e79e0); // Tints the water layer with the desired hex color
+    
+    // Background layers
+    bg_add_layer(spr_mmz_past_backgorund_4, 0, 500, 0, 0, 0, 0, 0.40, 0.02);    
+    bg_add_layer(spr_mmz_past_backgorund_3, 0, 500, 0, 0, 0, 0, 0.45, 0.03);        
+    bg_add_layer(spr_mmz_past_backgorund_2, 0, 500, 0, 0, 0, 0, 0.60, 0.03); // The sun is leaking
+				bg_add_layer(spr_mmz_waterlayer_past, 0, 128, 255, 0, 0, 0, 0.75, 0.3);			// Water Layer
+			bg_set_perspective_x(1.0, 2);
+			bg_set_perspective_y(water_level_init)
+    
+    break;
 						case rm_stage_mmz1C:
         
 			//the stage setup too
