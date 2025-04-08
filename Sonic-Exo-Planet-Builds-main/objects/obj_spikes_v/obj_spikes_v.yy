@@ -9,8 +9,8 @@
   "name":"obj_spikes_v",
   "overriddenProperties":[],
   "parent":{
-    "name":"Common",
-    "path":"folders/Objects/Common.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentObjectId":{
     "name":"c_object",
