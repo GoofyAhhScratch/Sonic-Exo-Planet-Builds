@@ -10,8 +10,8 @@
   "name":"obj_itembox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Common",
-    "path":"folders/Objects/Common.yy",
+    "name":"Other",
+    "path":"folders/Objects/Other.yy",
   },
   "parentObjectId":{
     "name":"c_object",

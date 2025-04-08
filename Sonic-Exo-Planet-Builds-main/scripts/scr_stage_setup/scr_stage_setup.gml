@@ -180,7 +180,7 @@ case rm_stage_mmz1B:
 			case rm_stage_tutorial:
         
 			//the stage setup too
-			m_stage_set(4, "Tutorial", 0, bgm_mmz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(4, "Tutorial", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(57, 217, global.player_main, "Instances");
 			player_spawn(35, 217, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
@@ -214,7 +214,7 @@ case rm_stage_mmz1B:
 		case rm_stage_aaz1A:
         
 			//the stage setup too
-			m_stage_set(4, "Abase Airs", 0, bgm_ghastly_gourd_present, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			m_stage_set(4, "Abase Airs", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			player_spawn(57, 217, global.player_main, "Instances");
 			player_spawn(35, 217, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
@@ -299,6 +299,14 @@ case rm_stage_mmz1B:
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking			// m ohnutains
 			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
 		break; 
+		case rm_test_zone:
+		m_stage_set(2, "Test", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			
+			player_spawn(48, 8, global.player_main, "Instances");
+			player_spawn(28, 8, global.player_cpu, "Instances");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+		break;
 		
 	}
 }
