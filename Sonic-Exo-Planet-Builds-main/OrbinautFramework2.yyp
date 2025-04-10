@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"OrbinautFramework2",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -64,6 +64,7 @@
     {"$GMFolder":"","%Name":"Tails","folderPath":"folders/Sprites/Player/Tails.yy","name":"Tails","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TT Shenanigans","folderPath":"folders/Sprites/TT Shenanigans.yy","name":"TT Shenanigans","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"angles_s1.bin","CopyToMask":3035426170322551022,"filePath":"datafiles/collision","name":"angles_s1.bin","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"angles_s2.bin","CopyToMask":-1,"filePath":"datafiles/collision","name":"angles_s2.bin","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -81,7 +82,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"OrbinautFramework2",
   "resources":[

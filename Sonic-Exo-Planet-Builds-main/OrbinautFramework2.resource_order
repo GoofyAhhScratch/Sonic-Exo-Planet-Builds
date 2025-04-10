@@ -398,7 +398,7 @@
     {"name":"sfx_grab","order":29,"path":"sounds/sfx_grab/sfx_grab.yy",},
     {"name":"sfx_hammer","order":30,"path":"sounds/sfx_hammer/sfx_hammer.yy",},
     {"name":"sfx_hurt","order":31,"path":"sounds/sfx_hurt/sfx_hurt.yy",},
-    {"name":"sfx_jump","order":32,"path":"sounds/sfx_jump/sfx_jump.yy",},
+    {"name":"sfx_jump","order":60,"path":"sounds/sfx_jump/sfx_jump.yy",},
     {"name":"sfx_land","order":33,"path":"sounds/sfx_land/sfx_land.yy",},
     {"name":"sfx_past","order":56,"path":"sounds/sfx_past/sfx_past.yy",},
     {"name":"sfx_projectile","order":34,"path":"sounds/sfx_projectile/sfx_projectile.yy",},

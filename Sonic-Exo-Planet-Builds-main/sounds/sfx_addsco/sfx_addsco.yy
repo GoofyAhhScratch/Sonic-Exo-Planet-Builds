@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.149002,
+  "duration":0.14900227,
   "name":"sfx_addsco",
   "parent":{
     "name":"SFX",

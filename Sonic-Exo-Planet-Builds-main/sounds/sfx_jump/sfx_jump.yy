@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.434467,
+  "duration":0.43380952,
   "name":"sfx_jump",
   "parent":{
     "name":"SFX",
