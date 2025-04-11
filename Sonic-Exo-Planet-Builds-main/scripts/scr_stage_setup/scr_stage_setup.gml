@@ -238,18 +238,9 @@ case rm_stage_mmz1B:
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			//heres the background shit
-			bg_add_layer(spr_bczpast_background_1, 0, 500, 0, 0, 0, 0, 0.80, 0.50);				// the sun is leaking
-			bg_add_layer(spr_bczpast_background_2, 0, 500, 0, 0, 0, 0, 0.65, 0.50);				// m ohnutains
-			bg_add_layer(spr_bczpast_background_3, 0, 500, 0, 0, 0, 0, 0.55, 0.50);				// buildings
-			bg_add_layer(spr_bczpast_background_4, 0, 500, 0, 0, 0, 0, 0.45, 0.50);	
-			bg_add_layer(spr_bczpast_background_5, 0, 500, 0, 0, 0, 0, 0.35, 0.50);	
-			bg_add_layer(spr_bczpast_background_6, 0, 500, 0, 0, 0, 0, 0.55, 0.50);// that pillar thingy
-			bg_add_layer(spr_bczpast_background_7, 0, 500, 0, 0, 0, 0, 0.50, 0.50);
-			bg_add_layer(spr_bczpast_background_8, 0, 500, 0, 0, 0, 0, 0.45, 0.50);
-			bg_add_layer(spr_bczpast_background_8, 0, 500, 0, 0, 0, 0, 0.40, 0.50);
-			bg_add_layer(spr_bczpast_background_8, 0, 500, 0, 0, 0, 0, 0.35, 0.50);
-			bg_add_layer(spr_bczpast_background_9, 0, 500, 0, 0, 0, 0, 0.30, 0.50);
-			bg_add_layer(spr_bczpast_background_10, 0, 500, 0, 0, 0, 0, 0.25, 0.50);
+			bg_add_layer(spr_bczpast_background_1, 0, 913, 0, 0, 0, 0, 0.40, 0.30);				// the sun is leaking
+			bg_add_layer(spr_bczpast_background_2, 0, 913, 0, 0, 0, 0, 0.45, 0.40);				// m ohnutains
+			bg_add_layer(spr_bczpast_background_3, 0, 913, 0, 0, 0, 0, 0.55, 0.50);				// buildings
         
 		break;
 		case rm_stage_bcz1B:
@@ -261,18 +252,9 @@ case rm_stage_mmz1B:
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			//heres the background shit
-			bg_add_layer(spr_bczpast_background_1, 0, 320, 0, 0, 0, 0, 0.3, 0.04);				// the sun is leaking
-			bg_add_layer(spr_bczpast_background_2, 0, 320, 0, 0, 0, 0, 0.4, 0.04);				// m ohnutains
-			bg_add_layer(spr_bczpast_background_3, 0, 320, 0, 0, 0, 0, 0.5, 0.04);				// buildings
-			bg_add_layer(spr_bczpast_background_4, 0, 320, 0, 0, 0, 0, 0.6, 0.04);	
-			bg_add_layer(spr_bczpast_background_5, 0, 320, 0, 0, 0, 0, 0.7, 0.04);	
-			bg_add_layer(spr_bczpast_background_6, 0, 320, 0, 0, 0.15, 0, 0.55, 0.04);// that pillar thingy
-			bg_add_layer(spr_bczpast_background_7, 0, 320, 0, 0, 0.9, 0, 0.50, 0.04);
-			bg_add_layer(spr_bczpast_background_8, 0, 320, 0, 0, 0.8, 0, 0.45, 0.04);
-			bg_add_layer(spr_bczpast_background_8, 0, 320, 0, 0, 0.6, 0, 0.40, 0.04);
-			bg_add_layer(spr_bczpast_background_8, 0, 320, 0, 0, 0.4, 0, 0.35, 0.04);
-			bg_add_layer(spr_bczpast_background_9, 0, 320, 0, 0, 0.3, 0, 0.30, 0.04);
-			bg_add_layer(spr_bczpast_background_10, 0, 320, 0, 0, 0, 0, 0.25,0.04);
+			bg_add_layer(spr_bczpast_background_1, 0, 913, 0, 0, 0, 0, 0.40, 0.20);				// the sun is leaking
+			bg_add_layer(spr_bczpast_background_2, 0, 913, 0, 0, 0, 0, 0.45, 0.30);				// m ohnutains
+			bg_add_layer(spr_bczpast_background_3, 0, 913, 0, 0, 0, 0, 0.55, 0.30);	
 			
 		break;
 		//the stage setup too

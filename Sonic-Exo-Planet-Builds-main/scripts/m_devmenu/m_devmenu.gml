@@ -71,5 +71,7 @@ m_devmenu_get_setting = function(_id)
         case 3: return $": {global.window_scale}X";
         case 4: return window_get_fullscreen() ? ": TRUE" : ": FALSE";
         case 5: return global.use_vsync ? ": TRUE" : ": FALSE";
+		case 6: return global.aspectratio == 1 ? ": 4:3" : ": 16:9";
+
     }
 }

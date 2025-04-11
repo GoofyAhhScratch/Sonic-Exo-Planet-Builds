@@ -1,4 +1,5 @@
 /// @function scr_fw_game_setup
+// At the top of scr_fw_game_setup
 function scr_fw_game_setup()
 {
 	// Developer mode. Enables dev shortcuts && room select
@@ -6,8 +7,9 @@ function scr_fw_game_setup()
 	
 	// Default settings. Some of them may be overwritten by the config file
 	global.window_name = "Sonic Exo-Planet"
-	global.init_resolution_w = 400;
-	global.init_resolution_h = 224;
+	if (!variable_global_exists("aspectratio")) {
+    global.init_resolution_w = 400;
+    global.init_resolution_h = 224;
 	global.window_scale = 2;
 	global.use_vsync = true;
 	global.gamepad_rumble = false;
@@ -74,4 +76,5 @@ function scr_fw_game_setup()
 	
 	// Tools
 	global.tools_binary_collision = false;
+}
 }

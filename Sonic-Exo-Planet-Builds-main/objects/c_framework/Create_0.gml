@@ -130,7 +130,6 @@ var m_local_start = function()
 	{
 	    exit;
 	}
-	
 	scr_fw_game_setup();
 	game_load_settings();
 	random_set_seed(randomise());

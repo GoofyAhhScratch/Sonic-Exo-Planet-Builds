@@ -234,6 +234,24 @@ switch category_id
 			
 				global.use_vsync = !global.use_vsync;
 				display_reset(0, global.use_vsync);
+				break;
+			case 6:
+							if _input_press.left
+				{
+					global.aspectratio = 1
+    global.init_resolution_w = 400;
+    global.init_resolution_h = 224;
+				}
+				else if _input_press.right
+				{
+					global.aspectratio = 0
+    global.init_resolution_w = 320;
+    global.init_resolution_h = 224;
+				}
+				else
+				{
+					break;
+				}
 				
 			break;
 		}
