@@ -49,7 +49,7 @@ if global.timetravelingTo == "" {
 	global.obj_player_gsp = 0;	
 }
 
-if (room != rm_map && global.timetravelingTo == "") {
+if (room != rm_map && global.timetravelingTo == "" && room != rm_stage_menu) {
     instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_titlecard);
     instance_create_depth(0, 0, RENDERER_DEPTH_HUD, obj_gui_hud);
 } else {
