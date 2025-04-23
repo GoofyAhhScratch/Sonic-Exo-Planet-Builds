@@ -465,7 +465,7 @@
     {"name":"spr_bcz_background_1","order":4,"path":"sprites/spr_bcz_background_1/spr_bcz_background_1.yy",},
     {"name":"spr_bcz_background_2","order":5,"path":"sprites/spr_bcz_background_2/spr_bcz_background_2.yy",},
     {"name":"spr_bcz_background_3","order":6,"path":"sprites/spr_bcz_background_3/spr_bcz_background_3.yy",},
-    {"name":"spr_bcz_background_train","order":36,"path":"sprites/spr_bcz_background_train/spr_bcz_background_train.yy",},
+    {"name":"spr_bcz_background_4","order":37,"path":"sprites/spr_bcz_background_4/spr_bcz_background_4.yy",},
     {"name":"spr_bcz_bf_pipes","order":22,"path":"sprites/spr_bcz_bf_pipes/spr_bcz_bf_pipes.yy",},
     {"name":"spr_bcz_bf_tileset","order":23,"path":"sprites/spr_bcz_bf_tileset/spr_bcz_bf_tileset.yy",},
     {"name":"spr_bcz_building","order":30,"path":"sprites/spr_bcz_building/spr_bcz_building.yy",},
