@@ -111,7 +111,7 @@ switch category_id
 
 		if !game_check_data(global.current_save_slot)
 		{
-			room_to_load = rm_stage_tsz0;
+			room_to_load = rm_stage_mmz1A;
 			m_devmenu_load_category(4);
 			
 			break;

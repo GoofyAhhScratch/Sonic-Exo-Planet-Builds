@@ -81,7 +81,7 @@ function scr_stage_setup()
 			
 			//heres the background shit
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking
-			bg_add_layer(spr_bcz_background_1, 0, 320, 0, 0, 0, 0, 0.45, 0.02);				// m ohnutains
+			bg_add_layer(spr_bcz_background_1_act_2, 0, 320, 0, 0, 0, 0, 0.45, 0.02);				// m ohnutains
 			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
 			bg_add_layer(spr_bcz_background_3, 0, 320, 0, 0, 0, 0, 0.70, 0.07);				// that pillar thingy
         
@@ -100,7 +100,8 @@ function scr_stage_setup()
 			bg_add_layer(spr_bcz_background_2, 0, 320, 0, 0, 0, 0, 0.20, 0.02);				// the sun is leaking
 			bg_add_layer(spr_bcz_background_1, 0, 320, 0, 0, 0, 0, 0.45, 0.02);				// m ohnutains
 			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
-			bg_add_layer(spr_bcz_background_3, 0, 320, 0, 0, 0, 0, 0.70, 0.07);				// that pillar thingy
+			bg_add_layer(spr_bcz_background_3, 0, 1120, 0, 0, 0, 0, 0.70, 0.07);				// that pillar thingy
+			bg_add_layer(spr_bcz_background_train, 0, 1120, 0, 0, 5, 0, 0.70, 0.07);
         
 		break;
 		case rm_stage_mmz1A:
@@ -137,7 +138,7 @@ draw_sprite(spr_mmz_background_4, floor(background_frame), 320, 0);
 case rm_stage_mmz1B:
         
     // The stage setup
-    m_stage_set(4, "Minty Mountain", 0, bgm_mmz_p_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, 2400, rm_devmenu, false);    
+    m_stage_set(4, "Minty Mountain", 0, bgm_mmz_p_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, 2880, rm_devmenu, false);    
     player_spawn(80, 2064, global.player_main, "Instances");
     player_spawn(70, 2064, global.player_cpu, "Instances");
     collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
