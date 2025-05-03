@@ -89,6 +89,7 @@ switch state
 		if state != PLAYER_STATE_DEATH
 		{
 			scr_player_carry();
+			scr_character_handle();
 			scr_player_water();
 		}
 		

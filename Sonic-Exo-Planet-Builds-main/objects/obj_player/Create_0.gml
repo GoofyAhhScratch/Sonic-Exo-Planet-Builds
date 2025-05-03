@@ -128,3 +128,7 @@ if global.timetravelingTo = ""
 
 scr_player_init();
 scr_player_debug_mode_init();
+
+enum PLAYER_STATE_GRABBED {
+    GRABBED = 11
+}

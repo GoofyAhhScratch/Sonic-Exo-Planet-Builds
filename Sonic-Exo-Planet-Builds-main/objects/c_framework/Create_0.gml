@@ -28,6 +28,7 @@
 #macro ENGINE_INPUT_GAMEPAD_DEADZONE 0.15
 #macro ENGINE_INPUT_MAX_DEVICE_COUNT 4  // Keyboard and first gamepad slot are treated as one device
 #macro ENGINE_TARGET_FPS 60  // This does not define the game speed
+#macro PLAYER_STATE_CARRIED 10
 
 #macro STATE_NORMAL 0
 #macro STATE_STOP_OBJECTS 1
@@ -446,3 +447,7 @@ var m_local_discord_start = function()
 m_local_discord_start();
 
 #endregion
+global.input_press = {}; // Create an input tracking structure
+global.input_press.action1 = false;
+global.input_press.right = false;
+global.input_press.left = false;
