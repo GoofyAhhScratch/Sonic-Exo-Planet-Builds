@@ -8,8 +8,8 @@
   "name":"obj_timetravelpost_future",
   "overriddenProperties":[],
   "parent":{
-    "name":"Time Travel Shenanigins",
-    "path":"folders/Objects/Time Travel Shenanigins.yy",
+    "name":"Blossom City",
+    "path":"folders/Rooms/Blossom City.yy",
   },
   "parentObjectId":{
     "name":"obj_timetravelpost_past",
