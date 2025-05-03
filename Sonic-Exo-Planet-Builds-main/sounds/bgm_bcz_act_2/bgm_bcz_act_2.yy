@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgm_bcz_act_2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":180.67741,
+  "name":"bgm_bcz_act_2",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Audio/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_bcz_act_2.mp3",
+  "type":1,
+  "volume":1.0,
+}
