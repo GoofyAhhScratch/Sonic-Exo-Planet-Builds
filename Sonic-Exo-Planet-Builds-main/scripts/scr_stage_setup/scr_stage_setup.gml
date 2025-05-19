@@ -298,6 +298,14 @@ bg_add_layer(spr_menu_paralax_bg_4, 0, 256, 0, 0, 0.10, 0, 0.60, 0.02);
 bg_add_layer(spr_menu_paralax_bg_3, 0, 256, 0, 0, 0, 0, 0, 0);
 bg_add_layer(spr_menu_paralax_bg_2, 0, 256, 0, 0, 0.20, 0, 0.60, 0.02);
 bg_add_layer(spr_menu_paralax_bg_1, 0, 256, 0, 0, 0.30, 0, 0.60, 0.02);
-		
+break;
+case rm_stage_ssz1A:
+        
+			//the stage setup too
+			m_stage_set(4, "SERENE SHRINE", 0, bgm_bcz_gf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(57, 217, global.player_main, "Instances");
+			player_spawn(35, 217, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);				// m ohnutains
 	}
 }
