@@ -146,7 +146,6 @@ switch state
                 audio_play_bgm(bgm_extralife, AUDIO_CHANNEL_JINGLE);
 				
             break;
-        }
         
         // Handle shield replacement if the shield has changed
         if _player.shield != _player_shield
@@ -162,6 +161,11 @@ switch state
         }
 		
     break;
+	case 16:	
+			// CD Swap
+			global.cdsonic = 1
+			break;
+        }
     
     case ITEMCARD_STATE_IDLE:
     

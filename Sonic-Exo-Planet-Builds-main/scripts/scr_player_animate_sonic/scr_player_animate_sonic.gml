@@ -2,8 +2,7 @@
 function scr_player_animate_sonic()
 {
 	gml_pragma("forceinline");
-	
-	switch animation
+		switch animation
 	{
 		case ANI_IDLE:
 		case ANI_WAIT:

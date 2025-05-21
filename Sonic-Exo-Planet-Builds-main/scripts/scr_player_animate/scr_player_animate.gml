@@ -64,7 +64,10 @@ function scr_player_animate()
 	switch PlayerType
 	{
 		case PLAYER_SONIC:
+		if (global.cdsonic = 0)
 			scr_player_animate_sonic();
+		if (global.cdsonic = 1)
+			scr_player_animate_cd_sonic();
 		break;
 		case PLAYER_TAILS:
 			scr_player_animate_tails();
