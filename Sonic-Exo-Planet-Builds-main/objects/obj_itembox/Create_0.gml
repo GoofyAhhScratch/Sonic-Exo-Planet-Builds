@@ -22,7 +22,6 @@ switch Type
     case "1UP":                  card_index = 9; break;
 	case "Past":                 card_index = 14; break;
 	case "Future":               card_index = 15; break;
-	case "CD Sonic":			 card_index = 16; break;
  
     default:
         card_index = 0;

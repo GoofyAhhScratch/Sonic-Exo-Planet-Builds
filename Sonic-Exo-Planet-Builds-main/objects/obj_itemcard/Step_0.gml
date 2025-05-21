@@ -161,12 +161,6 @@ switch state
         }
 		
     break;
-	case 16:	
-			// CD Swap
-			global.cdsonic = 1
-			break;
-        }
-    
     case ITEMCARD_STATE_IDLE:
     
         if --wait_timer == 0
