@@ -93,7 +93,7 @@ function scr_player_animate_cd_sonic()
 			}
 			else
 			{
-			ani_start(spr_cd_sonic_spin_fast, _duration, 0, 0, [0, 4, 1, 4, 2, 4, 3, 4]);
+			ani_start(spr_cd_sonic_spin_normal, _duration, 0, 0, [0, 4, 1, 4, 2, 4, 3, 4]);
 			ani_update_duration(_duration);
 			}
 			}

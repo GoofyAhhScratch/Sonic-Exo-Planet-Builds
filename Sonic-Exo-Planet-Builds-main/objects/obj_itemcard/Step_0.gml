@@ -40,10 +40,10 @@ switch state
 			
                 if _player.super_timer <= 0
                 {
-                    audio_play_bgm(bgm_invincibility);
+                    audio_play_bgm(bgm_highspeed);
                 }
 				
-                _player.item_speed_timer = 2040;
+                _player.item_speed_timer = 1200;
 				
             break;
                 
@@ -80,39 +80,7 @@ switch state
                 audio_play_sfx(sfx_shield_lightning);
 				
             break;
-	case 14:
-			
-                        if (global.present = true)
-						
-						{
-							instance_create(x,y,obj_starpost, {}, id);
-							obj_set_culling(CULLING.RESPAWN);
-							room_goto_next()
-						}
-						else
-						{
-							instance_create(x,y,obj_starpost, {}, id);
-							var _checkpoint_data = global.checkpoint_data;
-							obj_set_culling(CULLING.RESPAWN);
-							room_goto_previous();
-						}
-            break;
-			case 15:
-			
-                        if (global.past = true)
-						{
-							instance_create(x,y,obj_starpost, {}, id);
-							var _checkpoint_data = global.checkpoint_data;
-							obj_set_culling(CULLING.RESPAWN);
-							room_goto_previous();
-						}
-						else
-						{
-							instance_create(x,y,obj_starpost, {}, id);
-							var _checkpoint_data = global.checkpoint_data;
-							obj_set_culling(CULLING.RESPAWN);
-							room_goto(rm_stage_mmz1A)
-						}    
+                
             // Invincibility
             case 8:
 			
@@ -135,7 +103,7 @@ switch state
                     audio_play_bgm(bgm_invincibility);
                 }
 				
-                _player.item_inv_timer = 2040;
+                _player.item_inv_timer = 1200;
 				
             break;
                 
@@ -146,6 +114,7 @@ switch state
                 audio_play_bgm(bgm_extralife, AUDIO_CHANNEL_JINGLE);
 				
             break;
+        }
         
         // Handle shield replacement if the shield has changed
         if _player.shield != _player_shield
@@ -161,6 +130,7 @@ switch state
         }
 		
     break;
+    
     case ITEMCARD_STATE_IDLE:
     
         if --wait_timer == 0
@@ -168,6 +138,5 @@ switch state
             instance_destroy();
         }
 		
-			
-                
+    break;
 }
