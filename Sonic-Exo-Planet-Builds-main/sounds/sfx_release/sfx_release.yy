@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.415011,
+  "duration":1.4150113,
   "name":"sfx_release",
   "parent":{
     "name":"SFX",

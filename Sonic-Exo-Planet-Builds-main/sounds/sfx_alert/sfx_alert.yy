@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.752222,
+  "duration":0.75222224,
   "name":"sfx_alert",
   "parent":{
     "name":"SFX",

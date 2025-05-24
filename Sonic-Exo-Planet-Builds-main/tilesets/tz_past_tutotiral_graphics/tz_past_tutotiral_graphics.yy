@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tz_tutotiral_graphics",
+  "%Name":"tz_past_tutotiral_graphics",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tz_tutotiral_graphics",
-  "out_columns":31,
+  "name":"tz_past_tutotiral_graphics",
+  "out_columns":16,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tutorial_graphics",
-    "path":"sprites/spr_tutorial_graphics/spr_tutorial_graphics.yy",
+    "name":"spr_past_tutorial_graphics",
+    "path":"sprites/spr_past_tutorial_graphics/spr_past_tutorial_graphics.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":961,
+  "tile_count":256,
 }

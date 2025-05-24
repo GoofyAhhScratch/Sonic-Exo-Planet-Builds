@@ -4,7 +4,7 @@ var _fade = _framework.fade;
 // Check fade state and handle room transition
 if _fade.routine == FADEROUTINE.OUT && _fade.state == FADESTATE.PLAINCOLOUR
 {
-    room_goto(global.start_room);
+    room_goto(rm_stage_sega_intro);
 }
 
 // Check if the game is paused

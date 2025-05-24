@@ -10,8 +10,8 @@
   "name":"obj_continue_icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Continue",
-    "path":"folders/Objects/Continue.yy",
+    "name":"OrbinautFramework2",
+    "path":"OrbinautFramework2.yyp",
   },
   "parentObjectId":{
     "name":"c_object",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.74771,
+  "duration":1.7477098,
   "name":"sfx_signpost",
   "parent":{
     "name":"SFX",

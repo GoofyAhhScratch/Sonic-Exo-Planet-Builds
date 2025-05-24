@@ -177,7 +177,7 @@ case rm_stage_mmz1B:
 			
         
 		break;
-			case rm_stage_tutorial:
+			case rm_stage_tz1A:
         
 			//the stage setup too
 			m_stage_set(4, "Tutorial", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
@@ -188,6 +188,21 @@ case rm_stage_mmz1B:
 			
 			//heres the background shit
 			bg_add_layer(spr_mmz_past_backgorund_4, 0, 500, 0, 0, 0, 0, 0.40, 0.02);	
+			bg_add_layer(spr_mmz_past_backgorund_3, 0, 500, 0, 0, 0, 0, 0.45, 0.03);		
+			bg_add_layer(spr_mmz_past_backgorund_2, 0, 500, 0, 0, 0, 0, 0.60, 0.03);				// the sun is leaking
+			bg_add_layer(spr_mmz_past_backgorund_1, 0, 500, 0, 0, 0, 0, 0.75, 0.03);				// m ohnutains
+					break;
+			case rm_stage_tz1B:
+        
+			//the stage setup too
+			m_stage_set(4, "Tutorial", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(57, 217, global.player_main, "Instances");
+			player_spawn(35, 217, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
+			
+			//heres the background shit
+			bg_add_layer(spr_bcz_background_2, 0, 500, 0, 0, 0, 0, 0.40, 0.02);	
 			bg_add_layer(spr_mmz_past_backgorund_3, 0, 500, 0, 0, 0, 0, 0.45, 0.03);		
 			bg_add_layer(spr_mmz_past_backgorund_2, 0, 500, 0, 0, 0, 0, 0.60, 0.03);				// the sun is leaking
 			bg_add_layer(spr_mmz_past_backgorund_1, 0, 500, 0, 0, 0, 0, 0.75, 0.03);				// m ohnutains
