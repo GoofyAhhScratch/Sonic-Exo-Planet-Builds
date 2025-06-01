@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Common",
-    "path":"folders/Objects/Common.yy",
+    "path":"folders/Sprites/Common.yy",
   },
   "parentObjectId":{
     "name":"c_object",
