@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.468617,
+  "duration":0.46861678,
   "name":"sfx_starpost",
   "parent":{
     "name":"SFX",

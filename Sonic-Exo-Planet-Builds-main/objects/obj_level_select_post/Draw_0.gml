@@ -1,0 +1,1 @@
+draw_sprite(spr_time_select, global.frametimepost, x, y);
