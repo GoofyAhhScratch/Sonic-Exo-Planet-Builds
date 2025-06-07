@@ -1,2 +1,2 @@
-// Ensure the correct sprite is assigned based on the zone
-draw_sprite(spr_level_select, global.levelIndex, x, y);
+// Draw the correct level animation based on selection
+draw_sprite(spr_level_select, global.levellistanimation, x, y);

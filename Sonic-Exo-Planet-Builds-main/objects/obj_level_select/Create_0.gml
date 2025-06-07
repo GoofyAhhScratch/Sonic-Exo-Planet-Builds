@@ -1,0 +1,1 @@
+audio_play_sound(bgm_invincibility, 1, true);

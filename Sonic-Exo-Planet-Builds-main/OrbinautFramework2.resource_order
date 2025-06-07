@@ -386,6 +386,7 @@
     {"name":"bgm_ghastly_gourd_present","order":14,"path":"sounds/bgm_ghastly_gourd_present/bgm_ghastly_gourd_present.yy",},
     {"name":"bgm_highspeed","order":19,"path":"sounds/bgm_highspeed/bgm_highspeed.yy",},
     {"name":"bgm_invincibility","order":4,"path":"sounds/bgm_invincibility/bgm_invincibility.yy",},
+    {"name":"bgm_levelselect","order":22,"path":"sounds/bgm_levelselect/bgm_levelselect.yy",},
     {"name":"bgm_minty_mountain_zone","order":11,"path":"sounds/bgm_minty_mountain_zone/bgm_minty_mountain_zone.yy",},
     {"name":"bgm_mmz_gf_zone","order":12,"path":"sounds/bgm_mmz_gf_zone/bgm_mmz_gf_zone.yy",},
     {"name":"bgm_mmz_p_zone","order":13,"path":"sounds/bgm_mmz_p_zone/bgm_mmz_p_zone.yy",},

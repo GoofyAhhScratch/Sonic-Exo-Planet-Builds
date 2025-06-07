@@ -1,66 +1,56 @@
-// Define suffixes based on animation frame (0 to 3)
-var frame_suffixes = ["B", "A", "C", "D"]; 
+// --- Define suffix frames based on their order in spr_time_select ---
+// Frame order is: 0 → "B", 1 → "A", 2 → "C", 3 → "D"
+var frame_suffixes = ["B", "A", "C", "D"];
 
-// Ensure frame index is within bounds
-global.frametimepost = clamp(global.frametimepost, 0, array_length(frame_suffixes) - 1);
+// Clamp indexes to valid ranges.
+global.levellistanimation = clamp(global.levellistanimation, 0, array_length(global.levelList) - 1);
+global.frametimepost    = clamp(global.frametimepost, 0, array_length(frame_suffixes) - 1);
 
-// Handle UP/DOWN for selecting levels
-if (keyboard_check_pressed(vk_up)) {
-    global.levelIndex -= 1;
+// --- Handle input to adjust level selection and suffix ---
+var _input_press = input_get_pressed(0);  // your custom input check function
+
+// UP/DOWN: Change level index.
+if (_input_press.down) {
+    global.levellistanimation = min(global.levellistanimation + 1, array_length(global.levelList) - 1);
+    global.levelIndex = global.levellistanimation;
     audio_play_sound(sfx_beep, 1, false);
 }
-if (keyboard_check_pressed(vk_down)) {
-    global.levelIndex += 1;
-    audio_play_sound(sfx_beep, 1, false);
-}
-
-// Keep level index within bounds
-global.levelIndex = clamp(global.levelIndex, 0, array_length(global.levelList) - 1);
-
-// Handle LEFT/RIGHT for selecting animation frames
-if (keyboard_check_pressed(vk_right)) {
-    global.frametimepost += 1;
-    audio_play_sound(sfx_beep, 1, false);
-}
-if (keyboard_check_pressed(vk_left)) {
-    global.frametimepost -= 1;
+if (_input_press.up) {
+    global.levellistanimation = max(global.levellistanimation - 1, 0);
+    global.levelIndex = global.levellistanimation;
     audio_play_sound(sfx_beep, 1, false);
 }
 
-// Keep frame index within bounds
-global.frametimepost = clamp(global.frametimepost, 0, array_length(frame_suffixes) - 1);
+// LEFT/RIGHT: Change suffix frame.
+if (_input_press.right) {
+    global.frametimepost = min(global.frametimepost + 1, array_length(frame_suffixes) - 1);
+    audio_play_sound(sfx_beep, 1, false);
+}
+if (_input_press.left) {
+    global.frametimepost = max(global.frametimepost - 1, 0);
+    audio_play_sound(sfx_beep, 1, false);
+}
 
-// Get suffix based on the frame
-var selected_suffix = frame_suffixes[global.frametimepost];
+// --- Construct the room name based on the selection ---
+var selected_level = global.levelList[global.levellistanimation]; // e.g., "mmz1" or "ccz2"
+var selected_suffix = frame_suffixes[global.frametimepost];         // e.g., "B", "A", etc.
+var room_name = "rm_stage_" + selected_level + selected_suffix;       // e.g., "rm_stage_mmz1B"
 
-// Get room code based on the selected level variable
-var room_code = "rm_stage_" + global.levelList[global.levelIndex] + selected_suffix;
-
-// Debugging output
-show_debug_message("Generated Room Name: " + room_code);
-
-// Enter level when ENTER is pressed
-if (keyboard_check_pressed(vk_enter)) {
-    audio_play_sound(sfx_starpost, 1, false);
-    
-    // Debugging output
-    show_debug_message("Trying to enter: " + room_code);
-
-    // Find the correct room ID by matching the room name in global.roomTT
-    var room_found = false;
-    for (var i = 0; i < array_length(global.roomTT); i++) {
-        if (global.roomTT[i][0] == room_code) { // Match the generated room name
-            global.GoToRoom = global.roomTT[i][1]; // Assign the corresponding room ID
-            show_debug_message("Match Found! Transitioning to Room ID: " + string(global.GoToRoom));
-            room_found = true;
-            break;
-        }
+// --- Look up the room ID in global.roomTT ---
+global.GoToRoom = noone;
+for (var i = 0; i < array_length(global.roomTT); i++) {
+    if (global.roomTT[i][0] == room_name) {
+        global.GoToRoom = global.roomTT[i][1];
+        break;
     }
+}
 
-    // Check if a matching room was found before transitioning
-    if (room_found) {
-        room_goto(global.GoToRoom); // Enter the correct room
+// --- On confirmation input, transition to the selected room, or play fail sound ---
+if (_input_press.action1 || _input_press.start) {
+    if (global.GoToRoom != noone) {
+        audio_play_sound(sfx_starpost, 1, false);
+        room_goto(global.GoToRoom);
     } else {
-        show_debug_message("ERROR: Room name not found in global.roomTT!");
+        audio_play_sound(sfx_fail, 1, false);
     }
 }

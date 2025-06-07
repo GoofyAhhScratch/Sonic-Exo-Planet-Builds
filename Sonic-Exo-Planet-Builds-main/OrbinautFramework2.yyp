@@ -440,6 +440,7 @@
     {"id":{"name":"bgm_ghastly_gourd_present","path":"sounds/bgm_ghastly_gourd_present/bgm_ghastly_gourd_present.yy",},},
     {"id":{"name":"bgm_highspeed","path":"sounds/bgm_highspeed/bgm_highspeed.yy",},},
     {"id":{"name":"bgm_invincibility","path":"sounds/bgm_invincibility/bgm_invincibility.yy",},},
+    {"id":{"name":"bgm_levelselect","path":"sounds/bgm_levelselect/bgm_levelselect.yy",},},
     {"id":{"name":"bgm_minty_mountain_zone","path":"sounds/bgm_minty_mountain_zone/bgm_minty_mountain_zone.yy",},},
     {"id":{"name":"bgm_mmz_gf_zone","path":"sounds/bgm_mmz_gf_zone/bgm_mmz_gf_zone.yy",},},
     {"id":{"name":"bgm_mmz_p_zone","path":"sounds/bgm_mmz_p_zone/bgm_mmz_p_zone.yy",},},
