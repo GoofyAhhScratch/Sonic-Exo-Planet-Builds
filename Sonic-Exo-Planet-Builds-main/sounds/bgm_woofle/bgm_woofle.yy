@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":104.4,
+  "duration":104.38984,
   "name":"bgm_woofle",
   "parent":{
     "name":"BGM",

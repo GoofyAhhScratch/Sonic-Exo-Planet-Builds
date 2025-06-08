@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":150.59592,
+  "duration":150.54547,
   "name":"bgm_mmz_gf_zone",
   "parent":{
     "name":"BGM",
