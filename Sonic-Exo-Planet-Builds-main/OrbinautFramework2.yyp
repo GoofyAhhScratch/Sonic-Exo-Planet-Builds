@@ -40,6 +40,7 @@
     {"$GMFolder":"","%Name":"NEW","folderPath":"folders/Rooms/Blossom City/NEW.yy","name":"NEW","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Bonus Stage","folderPath":"folders/Rooms/Bonus Stage.yy","name":"Bonus Stage","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Branding","folderPath":"folders/Rooms/Branding.yy","name":"Branding","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Challange Levels","folderPath":"folders/Rooms/Challange Levels.yy","name":"Challange Levels","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Continue","folderPath":"folders/Rooms/Continue.yy","name":"Continue","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ghastly Gourd","folderPath":"folders/Rooms/Ghastly Gourd.yy","name":"Ghastly Gourd","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Map","folderPath":"folders/Rooms/Map.yy","name":"Map","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -240,6 +241,7 @@
     {"id":{"name":"rm_stage_bcz1D","path":"rooms/rm_stage_bcz1D/rm_stage_bcz1D.yy",},},
     {"id":{"name":"rm_stage_bcz2A","path":"rooms/rm_stage_bcz2A/rm_stage_bcz2A.yy",},},
     {"id":{"name":"rm_stage_bcz2B","path":"rooms/rm_stage_bcz2B/rm_stage_bcz2B.yy",},},
+    {"id":{"name":"rm_stage_chl_1","path":"rooms/rm_stage_chl_1/rm_stage_chl_1.yy",},},
     {"id":{"name":"rm_stage_exo_planet_team_splash","path":"rooms/rm_stage_exo_planet_team_splash/rm_stage_exo_planet_team_splash.yy",},},
     {"id":{"name":"rm_stage_ggz1A","path":"rooms/rm_stage_ggz1A/rm_stage_ggz1A.yy",},},
     {"id":{"name":"rm_stage_level_select","path":"rooms/rm_stage_level_select/rm_stage_level_select.yy",},},
@@ -962,6 +964,7 @@
     {"roomId":{"name":"rm_stage_exo_planet_team_splash","path":"rooms/rm_stage_exo_planet_team_splash/rm_stage_exo_planet_team_splash.yy",},},
     {"roomId":{"name":"rm_stage_sega_intro","path":"rooms/rm_stage_sega_intro/rm_stage_sega_intro.yy",},},
     {"roomId":{"name":"rm_stage_level_select","path":"rooms/rm_stage_level_select/rm_stage_level_select.yy",},},
+    {"roomId":{"name":"rm_stage_chl_1","path":"rooms/rm_stage_chl_1/rm_stage_chl_1.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
