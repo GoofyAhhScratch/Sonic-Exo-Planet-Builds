@@ -335,6 +335,19 @@ case rm_stage_chl_1:
 			bg_add_layer(spr_bcz_background_0, 0, 320, 0, 0, 0, 0, 0.60, 0.02);				// buildings
 			bg_add_layer(spr_bcz_background_3, 0, 1120, 0, 0, 0, 0, 0.70, 0.07);
 			bg_add_layer(spr_bcz_background_4, 0, 1120, 0, 0, 5, 0, 0.70, 0.07);// that pillar thingy
+			break;
+			case rm_stage_chl_2:
+        
+			//the stage setup too
+			m_stage_set(4, "MOONLIGHT MARAGE", 0, bgm_moonlight_marage, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(57, 217, global.player_main, "Instances");
+			player_spawn(35, 217, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);				// m ohnutains
+			
+			//heres the background shit
+			bg_add_layer(spr_ggz_present_background_4, 0, 320, 0, 0, 0, 0, 0.20, 0);				// the sun is leaking
+			bg_add_layer(spr_bczpast_background_2, 0, 329, 0, 0, 0, 0, 0.45, 0);				// m ohnutains
 		
 	}
 }

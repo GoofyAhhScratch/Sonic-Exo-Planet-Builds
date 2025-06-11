@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgm_moonlight_marage",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":192.6,
+  "name":"bgm_moonlight_marage",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Audio/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_moonlight_marage.mp3",
+  "type":0,
+  "volume":1.0,
+}
