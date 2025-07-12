@@ -348,6 +348,21 @@ case rm_stage_chl_1:
 			//heres the background shit
 			bg_add_layer(spr_ggz_present_background_4, 0, 320, 0, 0, 0, 0, 0.20, 0);				// the sun is leaking
 			bg_add_layer(spr_bczpast_background_2, 0, 329, 0, 0, 0, 0, 0.45, 0);				// m ohnutains
-		
+			break;
+			case rm_stage_ssz1A:
+			m_stage_set(4, "SERENE SHRINE", 0, bgm_bcz_bf_zone, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(57, 217, global.player_main, "Instances");
+			player_spawn(35, 217, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);				// m ohnutains
+		break;
+case rm_stage_mmz1D:
+        
+			//the stage setup too
+			m_stage_set(4, "Minty Mountain", 0, bgm_mmz_bf, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(80, 2064, global.player_main, "Instances");
+			player_spawn(70, 2064, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 	}
 }

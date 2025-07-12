@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":122.181816,
+  "duration":65.0,
   "name":"bgm_minty_mountain_zone",
   "parent":{
     "name":"BGM",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_minty_mountain_zone.ogg",
+  "soundFile":"bgm_minty_mountain_zone.mp3",
   "type":1,
   "volume":1.0,
 }

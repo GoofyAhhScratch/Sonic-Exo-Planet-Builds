@@ -154,6 +154,7 @@ global.roomTT = [
 	["mmz1_A", rm_stage_mmz1A],
     ["mmz1_B", rm_stage_mmz1B],
     ["mmz1_C", rm_stage_mmz1C],
+	["mmz1_D", rm_stage_mmz1D],
 	["ssz1_A", rm_stage_bcz1A],
     ["ssz1_B", rm_stage_bcz1B],
 	["ssz1_C", rm_stage_bcz1C],
