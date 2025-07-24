@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":65.0,
+  "duration":147.0,
   "name":"bgm_minty_mountain_zone",
   "parent":{
     "name":"BGM",
