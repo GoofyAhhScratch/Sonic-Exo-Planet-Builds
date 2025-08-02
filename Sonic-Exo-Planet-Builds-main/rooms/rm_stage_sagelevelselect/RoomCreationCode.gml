@@ -1,0 +1,1 @@
+audio_play_sound(bgm_chillmenu, 1, true);

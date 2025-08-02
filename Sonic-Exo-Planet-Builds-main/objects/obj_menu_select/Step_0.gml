@@ -26,7 +26,7 @@ if (_input_enter) {
     switch (option_id) {
         case 0:
             fade_perform_black(FADEROUTINE.OUT, 1);
-            room_goto(rm_devmenu); // Replace with the desired room
+            room_goto(rm_stage_sagelevelselect); // Replace with the desired room
             break;
         case 1:
             fade_perform_black(FADEROUTINE.OUT, 1);

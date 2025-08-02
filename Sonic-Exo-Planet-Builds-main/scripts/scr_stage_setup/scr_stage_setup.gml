@@ -305,7 +305,7 @@ case rm_stage_mmz1B:
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 		break;
 				case rm_stage_menu:
-				m_stage_set(2, "UNUSED TITLE", 0, bgm_placeholder, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+				m_stage_set(2, "UNUSED TITLE", 0, bgm_chillmenu, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
 			//the stage setup too
 			
 // Add background layers
