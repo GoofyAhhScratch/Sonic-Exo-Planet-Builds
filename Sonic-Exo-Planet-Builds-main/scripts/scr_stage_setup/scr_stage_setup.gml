@@ -361,5 +361,14 @@ case rm_stage_mmz1D:
 			player_spawn(70, 2064, global.player_cpu, "Instances");
 			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
 			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
+		break;
+	case rm_stage_ccz1A:
+        
+			//the stage setup too
+			m_stage_set(4, "Crystalline Cavern", 0, bgm_moonlight_marage, [spr_obj_animal_flicky, spr_obj_animal_pocky], room_height, -1, rm_devmenu, false);    
+			player_spawn(80, 2064, global.player_main, "Instances");
+			player_spawn(70, 2064, global.player_cpu, "Instances");
+			collision_load_binary("widths_s3", "heights_s3", "angles_s3", "CollisionA", "CollisionB");
+			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 	}
 }
