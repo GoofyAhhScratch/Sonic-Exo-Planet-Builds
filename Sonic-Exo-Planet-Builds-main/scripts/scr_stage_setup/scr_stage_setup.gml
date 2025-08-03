@@ -165,15 +165,12 @@ case rm_stage_mmz1B:
 			pal_load(spr_pal_default_primary, spr_pal_default_secondary);
 			
 			//heres the background shit
-			bg_add_layer(spr_mmz_gf_background_9, 0, 500, 0, 0, 0, 0, 0.15, 0.02);	
-			bg_add_layer(spr_mmz_gf_background_8, 0, 500, 0, 0, 0, 0, 0.20, 0.02);	
-			bg_add_layer(spr_mmz_gf_background_7, 0, 500, 0, 0, 0, 0, 0.25, 0.02);		
-			bg_add_layer(spr_mmz_gf_background_6, 0, 500, 0, 0, 0, 0, 0.30, 0.02);				// the sun is leaking
-			bg_add_layer(spr_mmz_gf_background_5, 0, 500, 0, 0, 0, 0, 0.35, 0.02);	
-			bg_add_layer(spr_mmz_gf_background_4, 0, 500, 0, 0, 0, 0, 0.40, 0.02);	
-			bg_add_layer(spr_mmz_gf_background_3, 0, 500, 0, 0, 0, 0, 0.45, 0.02);		
-			bg_add_layer(spr_mmz_gf_background_2, 0, 500, 0, 0, 0, 0, 0.60, 0.02);				// the sun is leaking
-			bg_add_layer(spr_mmz_gf_background_1, 0, 500, 0, 0, 0, 0, 0.75, 0.02);				// m ohnutains
+			bg_add_layer(spr_mmz_gf_background_9, 0, 500, 0, 0, 0, 0, 0.15, 0.05);	
+			bg_add_layer(spr_mmz_gf_background_8, 0, 500, 0, 0, 0, 0, 0.20, 0.05);	
+			bg_add_layer(spr_mmz_gf_background_7, 0, 500, 0, 0, 0, 0, 0.25, 0.05);		
+			bg_add_layer(spr_mmz_gf_background_6, 0, 500, 0, 0, 0, 0, 0.30, 0.05);				// the sun is leaking
+			bg_add_layer(spr_mmz_gf_background_5, 0, 500, 0, 0, 0, 0, 0.35, 0.05);	
+			bg_add_layer(spr_mmz_gf_background_4, 0, 500, 0, 0, 0, 0, 0.40, 0.05);	
 			
         
 		break;
