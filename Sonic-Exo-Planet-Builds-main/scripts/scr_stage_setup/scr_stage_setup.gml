@@ -171,6 +171,7 @@ case rm_stage_mmz1B:
 			bg_add_layer(spr_mmz_gf_background_6, 0, 500, 0, 0, 0, 0, 0.30, 0.05);				// the sun is leaking
 			bg_add_layer(spr_mmz_gf_background_5, 0, 500, 0, 0, 0, 0, 0.35, 0.05);	
 			bg_add_layer(spr_mmz_gf_background_4, 0, 500, 0, 0, 0, 0, 0.40, 0.05);	
+			bg_add_layer(spr_mmz_gf_background_3, 0, 500, 0, 0, 0, 0, 0.50, 0.05);	
 			
         
 		break;
