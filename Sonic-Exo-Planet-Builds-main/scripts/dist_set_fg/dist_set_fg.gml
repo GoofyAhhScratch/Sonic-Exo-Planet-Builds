@@ -8,44 +8,8 @@
 /// @param {Array<String>} layers An array of layer names to which the distortion will be applied.
 function dist_set_fg(_data1, _data2, _spd, _range_start, _range_end, _layers)
 {
-	// Create the foreground distortion effect and check if it's valid
-	var _effect = fx_create("_orbinaut_filter_distortion");
+	// NOTE: Removed since we couldnt find out how to reapply the distortion effect as a prefab
 	
-	if _effect == -1
-	{
-		exit;
-	}
-	
-	var _distortion = c_framework.distortion;
-	var _apply_flag = _distortion.apply_flag[0];
-	var _effect_range = _distortion.effect_range[0];
-
-	_distortion.fg_layers = _layers;
-	_distortion.effect[0] = _effect;
-	_distortion.offset_step[0] = _spd;
-	_effect_range[0] = _range_start;
-	_effect_range[1] = _range_end;
-
-	// Apply wave data if provided
-	if array_length(_data1) > 0
-	{
-		fx_set_parameter(_effect, "g_WaveHeight1", array_length(_data1));
-		fx_set_parameter(_effect, "g_WaveData1", _data1);
-		_apply_flag[0] = true;
-	}
-
-	if array_length(_data2) > 0
-	{
-		fx_set_parameter(_effect, "g_WaveHeight2", array_length(_data2));
-		fx_set_parameter(_effect, "g_WaveData2", _data2);
-		_apply_flag[1] = true;
-	}
-
-	// Set the effect to apply to single layers and assign it to each foreground layer
-	fx_set_single_layer(_effect, true);
-
-	for (var i = 0; i < array_length(_layers); i++)
-	{
-		layer_set_fx(_layers[i], _effect);
-	}
+	// The function will now exit without applying any visual distortion.
+	exit;
 }

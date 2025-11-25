@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_timetravelpost_past",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1307516d-f92a-4738-a4dd-ccfc909acfb4","name":"1307516d-f92a-4738-a4dd-ccfc909acfb4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c7c9e63d-2140-4a0f-b411-cc0b2ebe7fce","name":"c7c9e63d-2140-4a0f-b411-cc0b2ebe7fce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"22b8e146-39d7-4efd-b294-129c9a02023c","name":"22b8e146-39d7-4efd-b294-129c9a02023c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9a050747-42d1-457d-b447-b0ad16ff6869","name":"9a050747-42d1-457d-b447-b0ad16ff6869","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"581f529e-3792-46b2-87f8-686fe818c12d","name":"581f529e-3792-46b2-87f8-686fe818c12d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1307516d-f92a-4738-a4dd-ccfc909acfb4","name":"1307516d-f92a-4738-a4dd-ccfc909acfb4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7c9e63d-2140-4a0f-b411-cc0b2ebe7fce","name":"c7c9e63d-2140-4a0f-b411-cc0b2ebe7fce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22b8e146-39d7-4efd-b294-129c9a02023c","name":"22b8e146-39d7-4efd-b294-129c9a02023c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9a050747-42d1-457d-b447-b0ad16ff6869","name":"9a050747-42d1-457d-b447-b0ad16ff6869","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"581f529e-3792-46b2-87f8-686fe818c12d","name":"581f529e-3792-46b2-87f8-686fe818c12d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -74,21 +74,11 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1307516d-f92a-4738-a4dd-ccfc909acfb4","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c42530dd-6612-484c-9a79-d5d12fc8617d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7c9e63d-2140-4a0f-b411-cc0b2ebe7fce","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c1d11980-940c-4d05-a7be-ad3dba514b0a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"22b8e146-39d7-4efd-b294-129c9a02023c","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ec31b724-899b-4cd3-ae12-18ed32830402","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a050747-42d1-457d-b447-b0ad16ff6869","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2ef41f02-a66d-4a1a-b86d-f9f25569fa45","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"581f529e-3792-46b2-87f8-686fe818c12d","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"08a80c22-6619-4369-baae-92ecde458e5f","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1307516d-f92a-4738-a4dd-ccfc909acfb4","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c42530dd-6612-484c-9a79-d5d12fc8617d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7c9e63d-2140-4a0f-b411-cc0b2ebe7fce","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c1d11980-940c-4d05-a7be-ad3dba514b0a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"22b8e146-39d7-4efd-b294-129c9a02023c","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ec31b724-899b-4cd3-ae12-18ed32830402","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a050747-42d1-457d-b447-b0ad16ff6869","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2ef41f02-a66d-4a1a-b86d-f9f25569fa45","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"581f529e-3792-46b2-87f8-686fe818c12d","path":"sprites/spr_timetravelpost_past/spr_timetravelpost_past.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"08a80c22-6619-4369-baae-92ecde458e5f","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

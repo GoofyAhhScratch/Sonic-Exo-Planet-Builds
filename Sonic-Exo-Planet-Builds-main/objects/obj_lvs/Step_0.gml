@@ -43,7 +43,7 @@ if (keyboard_check(ord("Z"))) {
 		game_set_speed(60, gamespeed_fps); // Sets to 30 FPS
     }
     else if (global.framelvs == 3) {
-        room_goto(rm_stage_chl_1);
+        room_goto(rm_stage_level_select);
 		game_set_speed(60, gamespeed_fps); // Sets to 30 FPS
     }
 }

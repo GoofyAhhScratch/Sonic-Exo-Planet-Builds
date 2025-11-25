@@ -30,8 +30,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"State","filters":[],"listItems":[],"multiselect":false,"name":"State","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"SIGN_STATIC","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"TimeSpin","filters":[],"listItems":[],"multiselect":false,"name":"TimeSpin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"State","filters":[],"listItems":[],"multiselect":false,"name":"State","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"SIGN_STATIC","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"TimeSpin","filters":[],"listItems":[],"multiselect":false,"name":"TimeSpin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
